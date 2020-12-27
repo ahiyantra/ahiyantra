@@ -1,2 +1,2 @@
 # python_practice
-Several projects of varying complexity completed as a part of Codecademy's Computer Science path curriculum for practising the use of Python (version 3), all done without using "Help".
+several projects of varying complexity completed as a part of codecademy's career path curriculum for computer science, in order to practice using the python programming language (version three)

@@ -1,4 +1,4 @@
-# greeting travellers
+# greetings travellers
 ## may you enjoy your stay
 a hearty welcome from 'ahiyantra'
 —
