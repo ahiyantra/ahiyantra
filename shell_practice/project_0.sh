@@ -15,7 +15,7 @@ One common use of bash scripts is for releasing a “build” of your source cod
 In this project, you’ll create a release script to copy certain files from a source directory into a build directory.
 
 Tasks
-2/13 Complete
+13/13 Complete
 Mark the tasks as complete by checking them off
 Start the script
 1.
@@ -129,15 +129,77 @@ Zip the resulting build directory.
 Give the script more character with emojis.
 If you are familiar with git, commit the changes in the build directory.
 Code Editor
-1324
+123456789101112131415161718
 
 
 Terminal
 
 
 Build a Build Script
-2/13 Complete
+13/13 Complete
 
 MULTILINE-COMMENT
 
-echo "welcome"
+echo "... welcome ..."
+firstline=$(head -n 1 source/changelog.md)
+read -a splitfirstline <<< $firstline
+version=${splitfirstline[1]}
+echo 'Would you prefer continuing? (please enter "1" for "yes" & "0" for "no")'
+read versioncontinue
+
+if [ $versioncontinue -eq 1 ]
+then
+  echo "ok"
+  for filename in source/*
+  do
+    echo $filename
+    if [ "$filename" == "source/secretinfo.md" ]
+    then
+      echo "not copying:" $filename
+    else
+      echo "copying:" $filename
+      cp $filename build/.
+    fi
+  done
+else
+  echo "please return here when you are ready"
+fi
+
+cd build
+echo "Build version $version contains:"
+ls
+cd ..
+echo "Source version $version contains:"
+ls source/
+echo "... fin ..."
+
+<< 'MULTILINE-COMMENT'
+
+$ ./script.sh
+... welcome ...
+Would you prefer continuing? (please enter "1" for "yes" & "0" for "no")
+1
+ok
+source/bar.js
+copying: source/bar.js
+source/buzz.css
+copying: source/buzz.css
+source/changelog.md
+copying: source/changelog.md
+source/foo1.html
+copying: source/foo1.html
+source/foo2.html
+copying: source/foo2.html
+source/foo3.html
+copying: source/foo3.html
+source/secretinfo.md
+not copying: source/secretinfo.md
+Build version 11.2.3 contains:
+bar.js    changelog.md  foo2.html
+buzz.css  foo1.html     foo3.html
+Source version 11.2.3 contains:
+bar.js    changelog.md  foo2.html  secretinfo.md
+buzz.css  foo1.html     foo3.html
+... fin ...
+
+MULTILINE-COMMENT

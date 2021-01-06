@@ -1,0 +1,15 @@
+#!/bin/bash
+
+<< 'MULTILINE-COMMENT'
+
+xyz
+
+MULTILINE-COMMENT
+
+xyz
+
+<< 'MULTILINE-COMMENT'
+
+xyz
+
+MULTILINE-COMMENT
