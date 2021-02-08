@@ -15,7 +15,7 @@ Attica, a clothing store, has asked you to help them configure their environment
 If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.
 
 Tasks
-0/17 Complete
+17/17 Complete
 Mark the tasks as complete by checking them off
 1.
 Print the working directory.
@@ -116,7 +116,7 @@ Terminal
 
 
 Attica
-0/17 Complete
+17/17 Complete
 
 MULTILINE-COMMENT
 

@@ -157,6 +157,17 @@ mv todo/europe/* europe/
 rm -r todo/*
 ls asia/ >> todo/asian_language_files.txt
 echo "Welkom by die Lingua Franca vertaaldienste." >> africa/afrikaans.txt
+wc -l */*.txt | grep 0 > todo/empty_files.txt
+cat todo/empty_files.txt
+sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+grep -Rl 'Lingua-Franca' */*.txt | wc -l
+nano ~/.bash_profile
+echo "Greetings! ご挨拶！"
+^o
+enter
+^x
+clear
+source ~/.bash_profile
 
 << 'MULTILINE-COMMENT'
 
@@ -208,7 +219,33 @@ user@user-PC:~/Downloads/lingua-franca$ mv todo/europe/* europe/
 user@user-PC:~/Downloads/lingua-franca$ rm -r todo/*
 user@user-PC:~/Downloads/lingua-franca$ ls asia/ >> todo/asian_language_files.txt
 user@user-PC:~/Downloads/lingua-franca$ echo "Welkom by die Lingua Franca vertaaldienste." >> africa/afrikaans.txt
-user@user-PC:~/Downloads/lingua-franca$ 
-
+user@user-PC:~/Downloads/lingua-franca$ wc -l */*.txt | grep 0 > todo/empty_files.txt
+user@user-PC:~/Downloads/lingua-franca$ cat todo/empty_files.txt
+  0 africa/afrihili.txt
+  0 asia/bengali.txt
+  0 asia/chinese.txt
+  0 asia/hebrew.txt
+  0 asia/hindi.txt
+  0 asia/japanese.txt
+  0 asia/punjabi.txt
+  0 europe/french.txt
+  0 europe/german.txt
+  0 europe/italian.txt
+  0 europe/russian.txt
+  0 europe/spanish.txt
+  0 europe/yiddish.txt
+  0 northamerica/french.txt
+  0 northamerica/spanish.txt
+  0 southamerica/spanish.txt
+  0 todo/empty_files.txt
+  0 world/esperanto.txt
+user@user-PC:~/Downloads/lingua-franca$ sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+user@user-PC:~/Downloads/lingua-franca$ grep -Rl 'Lingua-Franca' */*.txt | wc -l
+0
+user@user-PC:~/Downloads/lingua-franca$ nano ~/.bash_profile
+user@user-PC:~/Downloads/lingua-franca$ source ~/.bash_profile
+Greetings! ご挨拶！
+¥ clear
+¥ 
 
 MULTILINE-COMMENT

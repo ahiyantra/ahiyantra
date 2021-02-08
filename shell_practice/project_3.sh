@@ -280,7 +280,8 @@ Greece vs Turkey
 Greece: loss
 
 France vs Spain
-France: loss$ sed 's/loss/win/g' games.txt
+France: loss
+$ sed 's/loss/win/g' games.txt
 Australia vs United Kingdom
 Australia: win
 
