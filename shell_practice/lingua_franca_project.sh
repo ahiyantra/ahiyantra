@@ -168,6 +168,33 @@ enter
 ^x
 clear
 source ~/.bash_profile
+nano ~/.bash_profile
+alias md="mkdir"
+alias d="date"
+alias hy="history"
+^o
+enter
+^x
+clear
+source ~/.bash_profile
+md translations
+ls
+d
+hy
+clear
+nano ~/.bash_profile
+export PS1="¥ "
+^o
+enter
+^x
+clear
+source ~/.bash_profile
+md transliterations
+ls
+d
+hy
+clear
+env
 
 << 'MULTILINE-COMMENT'
 
@@ -243,9 +270,38 @@ user@user-PC:~/Downloads/lingua-franca$ sed -i 's/Lingua-Franca/Lingua Franca/g'
 user@user-PC:~/Downloads/lingua-franca$ grep -Rl 'Lingua-Franca' */*.txt | wc -l
 0
 user@user-PC:~/Downloads/lingua-franca$ nano ~/.bash_profile
+user@user-PC:~/Downloads/lingua-franca$ clear
 user@user-PC:~/Downloads/lingua-franca$ source ~/.bash_profile
 Greetings! ご挨拶！
+$ nano ~/.bash_profile
+$ clear
+$ source ~/.bash_profile
+Greetings! ご挨拶！
+$ md translations
+$ ls
+africa  europe        solution.html  tasks.html  translations
+asia    northamerica  southamerica   todo        world
+$ d
+Wed Feb 10 13:37:02 IST 2021
+$ hy
+ 1996  d
+ 1997  hy
+$ clear
+$ nano ~/.bash_profile
+$ clear
+$ source ~/.bash_profile
+Greetings! ご挨拶！
+¥ md transliterations
+¥ ls
+africa  europe        solution.html  tasks.html  translations      world
+asia    northamerica  southamerica   todo        transliterations
+¥ d
+Wed Feb 10 13:50:23 IST 2021
+¥ hy
+ 2004  d
+ 2005  hy
 ¥ clear
+¥ env
 ¥ 
 
 MULTILINE-COMMENT
