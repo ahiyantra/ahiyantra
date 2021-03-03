@@ -1,6 +1,12 @@
 """
-INTRODUCTION TO PROGRAMMING
-Create Purchasing Information and Receipts for Lovely Loveseats
+Skip to Content
+Python: Hello World
+
+Avatar
+Python: Hello World: Receipts for Lovely LoveseatsBrief
+Objective
+CS 101: INTRODUCTION TO PROGRAMMING
+Receipts for Lovely Loveseats
 We’ve decided to pursue the dream of small-business ownership and open up a furniture store called Lovely Loveseats for Neat Suites on Fleet Street. With our newfound knowledge of Python programming, we’re going to build a system to help speed up the process of creating receipts for your customers.
 
 In this project, we will be storing the names and prices of a furniture store’s catalog in variables. You will then process the total price and item list of customers, printing them to the output terminal.
@@ -10,7 +16,7 @@ Please note: Projects do not run tests against your code. This experience is mor
 If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.
 
 Tasks
-20/20Complete
+20/20 Complete
 Mark the tasks as complete by checking them off
 Adding In The Catalog
 1.
@@ -99,9 +105,16 @@ Now print out their total! Our first customer now has a receipt for the things t
 20.
 Congratulations! We created our catalog and served our first customer. We used our knowledge of strings and numbers to create and update variables. We were able to print out an itemized list and a total cost for our customer. Lovely!
 
+Code Editor
+1234567891011
 
-Create Purchasing Information and Receipts for Lovely Loveseats
-20/20Complete
+
+Output-only Terminal
+Output:
+ 
+
+Receipts for Lovely Loveseats
+20/20 Complete
 """
 
 lovely_loveseat_description = "Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white. ";
