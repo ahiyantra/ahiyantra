@@ -18,7 +18,7 @@ In this project, you’ll use Git backtracking commands to undo mistakes made to
 If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.
 
 Tasks
-0/11 Complete
+11/11 Complete
 Mark the tasks as complete by checking them off
 ASCII Portfolio
 1.
@@ -78,12 +78,38 @@ Terminal
 
 
 ASCII Portfolio
-0/11 Complete
+11/11 Complete
 
 MULTILINE-COMMENT
 
-echo "xyz"
+git checkout HEAD portrait.txt
+git add portrait.txt
+git commit -m "added eyebrows to the portrait"
+git add .
+git commit -m "changed the completion date in every file"
+git add .
+git reset HEAD house.txt
+git commit -m "added my artist name for all artworks except the house"
 
 << 'MULTILINE-COMMENT'
+
+$ git checkout HEAD portrait.txt
+$ git add portrait.txt
+$ git commit -m "added eyebrows to the portrait"
+[master dc56b8d] added eyebrows to the portrait
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git add .
+$ git commit -m "changed the completion date in every file"
+[master b7e4f2f] changed the completion date in every file
+ 3 files changed, 19 insertions(+), 2 deletions(-)
+ create mode 100644 house.txt
+$ git add .
+$ git reset HEAD house.txt
+Unstaged changes after reset:
+M       house.txt
+$ git commit -m "added my artist name for all artworks except the house"
+[master d6c2c47] added my artist name for all artworks except the house
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+$ 
 
 MULTILINE-COMMENT
