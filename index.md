@@ -10,6 +10,8 @@ Relevant quote:
 "There's always a first time. Everyone starts somewhere & becoming a beginner is the first step towards becoming an expert."
 — anonymous
 
-> [return to the main page](https://ahiyantra.github.io)
-> |
-> [visit this project on github](https://github.com/ahiyantra/ahiyantra)
+> [**return to the main page**](https://ahiyantra.github.io)
+
+------------
+
+[LinkedIn](https://www.linkedin.com/in/ahiyantra/) | [YouTube](https://www.youtube.com/channel/UCvqX8LLwojuty35CrIlRBVQ) | [itch[dot]io](https://ahiyantra.itch.io/) | [Twitter](https://twitter.com/ahiyantra)
