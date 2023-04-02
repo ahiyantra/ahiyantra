@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	text-align: center;
+	font-size: 120px; /* 72px */
+	font-family: "Segoe UI", "Meiryo UI", "Hiragino Kaku Gothic ProN", sans-serif;
+	color: #333;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*
+.close-button {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	padding: 10px 20px;
+	border: none;
+	background-color: #333;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+}
+*/
+.randomize-button {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	padding: 10px 20px;
+	border: none;
+	background-color: #333;
+	color: #fff;
+	font-size: 36px; /* 18px */
+	cursor: pointer;
+}
+
+button:hover {
+  background-color: palevioletred;
+}

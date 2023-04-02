@@ -1,0 +1,11 @@
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\Project-0_Cpp.vcxproj.CopyComplete
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\Project-0_Cpp.exe
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\sfml-graphics-d-2.dll
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\sfml-window-d-2.dll
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\sfml-system-d-2.dll
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\freetyped.dll
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\zlibd1.dll
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\bz2d.dll
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\libpng16d.dll
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\brotlidec.dll
+C:\ahiyantra\ahiyantra\project_(re-zeroth)\Project-0_Cpp\Debug\brotlicommon.dll
