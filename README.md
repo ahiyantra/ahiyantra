@@ -1,8 +1,8 @@
-# Greetings, Traveller!
+# Greetings, Traveller! May You Enjoy Your Stay!
 
-## ~ May You Enjoy Your Stay ~
+## "AhiYantra" (@ahiyantra) Welcomes You!
 
-### ~ A Hearty Welcome From "AHIYANTRA" (@ahiyantra) ~
+### Feel Free To Check Out My Personal Projects!
 
 <div>
 <p align="left">
