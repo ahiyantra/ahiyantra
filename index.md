@@ -10,6 +10,8 @@ Relevant quote:
 "There's always a first time. Everyone starts somewhere & becoming a beginner is the first step towards becoming an expert."
 — anonymous
 
+------------
+
 > [**return to the main page**](https://ahiyantra.github.io)
 
 ------------

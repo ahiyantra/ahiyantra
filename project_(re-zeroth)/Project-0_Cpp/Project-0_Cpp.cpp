@@ -12,12 +12,12 @@ int main()
     std::srand(std::time(nullptr));
 
     // Set up SFML window
-    sf::RenderWindow window(sf::VideoMode(600, 300), "Randomly Chosen Japanese Kana Font Symbol Display");
+    sf::RenderWindow window(sf::VideoMode(500, 250), "Randomly Chosen Japanese Kana & Kanji Font Symbol Display");
     window.setFramerateLimit(60);
 
-    // Set up font and text
-    sf::Font font;
-    if (!font.loadFromFile("meiryo.ttc")) 
+    // Load the meiryo font
+    sf::Font font_kana;
+    if (!font_kana.loadFromFile("meiryo.ttc"))
     {
         std::cout << "\nError: The font file couldn't be loaded.\n" << std::endl;
 
@@ -28,21 +28,65 @@ int main()
 
         return 1;
     }
-    sf::Text mainText("", font, 80);
+
+    // Load the mincho font
+    sf::Font font_kanji;
+    if (!font_kanji.loadFromFile("msmincho.ttc"))
+    {
+        std::cout << "\nError: The font file couldn't be loaded.\n" << std::endl;
+
+        std::cout << "\nWarning: Add the japanese font files to the same folder for avoiding the program exiting suddenly.\n" << std::endl;
+        std::cout << "\nWarning: Change the system & software settings to include japanese if necessary for avoiding a blank display.\n" << std::endl;
+
+        system("pause");
+
+        return 1;
+    }
+
+    // Set up the kanji text object
+    sf::Text textKanji;
+    textKanji.setFont(font_kanji);
+    textKanji.setCharacterSize(80);
+    textKanji.setFillColor(sf::Color::Black);
+    textKanji.setStyle(sf::Text::Bold);
+    textKanji.setPosition(250, 5);
+
+    // Set the initial kanji 
+    sf::String chosenKanji = sf::String::fromUtf32(1, std::rand() % 20901 + 11904);
+    textKanji.setString(sf::String(chosenKanji));
+
+    sf::Text textKana("", font_kana, 80);
+
+    textKana.setFillColor(sf::Color::Black);
+    textKana.setStyle(sf::Text::Bold);
+    textKana.setPosition(50, 5);
 
     int randomChar = std::rand() % 86; // Generate random number between 0 and 85
-    mainText.setString(std::wstring(1, 0x3041 + randomChar)); // Set text to Japanese kana font symbol
-    std::cout << "\nset japanese kana font symbol\n" << std::endl;
+    textKana.setString(std::wstring(1, 0x3041 + randomChar)); // Set text to Japanese kana font symbol
 
-    mainText.setFillColor(sf::Color::Black);
-    mainText.setPosition(5, 0);
+    std::cout << "\nautomatically set japanese kana & kanji font symbols\n" << std::endl;
 
-    sf::Text reminderText("(expect next random japanese kana \n font symbol in one minute)", font, 25);
+    sf::Text reminderText("(expect next random japanese kana \n & kanji font symbols in one minute)", font_kana, 25);
     reminderText.setFillColor(sf::Color::Black);
-    reminderText.setPosition(5, 100);
+    reminderText.setStyle(sf::Text::Bold);
+    reminderText.setPosition(5, 110);
 
-    // Set up clock
-    sf::Clock clock;
+    // Create the randomization button
+    sf::RectangleShape button(sf::Vector2f(150, 50)); // length & breadth
+    button.setPosition(150, 190); // left vs right & down vs up
+    button.setFillColor(sf::Color::Green);
+
+    // Create the button text
+    sf::Text buttonText("RANDOMIZE", font_kana, 20);
+    buttonText.setFillColor(sf::Color::Black);
+    buttonText.setStyle(sf::Text::Bold);
+    buttonText.setPosition(160, 205); // left vs right & down vs up
+
+    // Set up clocks
+    sf::Clock clock_a;
+    sf::Clock clock_b;
+
+    sf::Color grey(220, 220, 220);
 
     // Main loop
     while (window.isOpen())
@@ -51,25 +95,64 @@ int main()
         sf::Event event;
         while (window.pollEvent(event))
         {
+            clock_b.restart();
+
             if (event.type == sf::Event::Closed)
             {
                 window.close();
             }
+
+            // Handle button clicks
+            if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left) 
+            {
+                sf::Vector2f mousePos = window.mapPixelToCoords(sf::Mouse::getPosition(window));
+                if (button.getGlobalBounds().contains(mousePos)) 
+                {
+
+                    button.setFillColor(sf::Color::Yellow);
+                    buttonText.setFillColor(sf::Color::Red);
+
+                    chosenKanji = sf::String::fromUtf32(1, std::rand() % 20901 + 11904);
+                    textKanji.setString(sf::String(chosenKanji));
+
+                    randomChar = std::rand() % 86;
+                    textKana.setString(std::wstring(1, 0x3041 + randomChar));
+                    clock_a.restart();
+
+                    //std::cout << "\nchanged japanese kana & kanji font symbols on button click\n" << std::endl;
+                }
+            }
         }
 
-        // Change font symbol once per minute
-        if (clock.getElapsedTime().asSeconds() >= 60)
+        // Change font symbols once per minute
+        if (clock_a.getElapsedTime().asSeconds() >= 60)
         {
-            int randomChar = std::rand() % 86; // Generate random number between 0 and 85
-            mainText.setString(std::wstring(1, 0x3041 + randomChar)); // Set text to Japanese kana font symbol
-            std::cout << "\nchanged japanese kana font symbol\n" << std::endl;
-            clock.restart();
+
+            chosenKanji = sf::String::fromUtf32(1, std::rand() % 20901 + 11904);
+            textKanji.setString(sf::String(chosenKanji));
+
+            randomChar = std::rand() % 86; // Generate random number between 0 and 85
+            textKana.setString(std::wstring(1, 0x3041 + randomChar)); // Set text to Japanese kana font symbol
+            clock_a.restart();
+
+            std::cout << "\nautomatically changed japanese kana & kanji font symbols\n" << std::endl;
+        }
+
+        // Reset the button color
+        if (clock_b.getElapsedTime().asSeconds() >= 0.05 && buttonText.getFillColor() == sf::Color::Red) 
+        {
+            button.setFillColor(sf::Color::Green);
+            buttonText.setFillColor(sf::Color::Blue);
+            clock_b.restart();
         }
 
         // Draw text
-        window.clear(sf::Color::White);
-        window.draw(mainText);
+        window.clear(grey);
+        window.draw(textKana);
         window.draw(reminderText);
+        window.draw(textKanji);
+        window.draw(button);
+        window.draw(buttonText);
         window.display();
     }
 
