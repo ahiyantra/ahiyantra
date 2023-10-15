@@ -1,14 +1,14 @@
-# Swarn "A. Y." S. Warshaneyan
+# Swarn "A. Y." S. Warshaneyan (スワーン・ワーシュネヤン)
 
-## SDE (AR/VR) & Unity/C# Developer
+## SDE | Web, Game, Simulation & XR
 
-### About
+### Introduction:
 
-I'm a software development engineer striving to create likeable products & services. My interests lie mainly in web/game development, with a specialization in the field of "extended reality" (also known as "augmented/mixed/virtual reality"). I'm also interested in robotics & simulations. I've completed my college education for a bachelor's of technology in biotechnology (engineering degree). I'm constantly working on improving my understanding of web/game development & associated topics. My hobbies include reading in general & learning new things. I believe that possessing a rational, utilitarian, practical & realistic approach is important. I occasionally work on research topics that are relevant to me. My mindset as a professional includes not minding either traveling or relocating if my responsibilities require me to, since I'm always interested in experiencing an adventure. If something about me piques your curiosity, then please feel free to contact me about it. Other than that, I recommend checking out my various personal projects.
+I'm a software engineer with academic research & commercial work experience, striving to create likeable products & services. My skills are mainly in full-stack (front-end/back-end) web & game (unity/unreal) development. I've worked on computer simulation & extended reality (augmented/mixed/virtual reality) projects. I'm interested in robotics & artificial intelligence. I can be described as adept at working with Python, Visual Studio, dot NET, Unity, C# and Git (other than some additional ones — such as JavaScript, SQL, Bash, Linux, Unreal, ROS and C++) through Agile and DevOps methods. I've a bachelor of technology (a general technology & engineering degree with a specialization, 4 years long, 2016 - 2020) in biotechnology & bioinformatics from Amity University, India.  I'm fluent in English & Hindi. I've basic knowledge of German & Japanese cultures & languages due to personal interest. I'm currently learning the Japanese language from The Japan Foundation's e-learning platform, Minato. I'm also learning the Gazebo simulator for robotics simulation.
 
-Relevant quote:
-"Keep iterating. Everyone starts somewhere. Becoming a beginner is always the first step towards becoming an expert."
-— unknown
+I constantly work on improving my understanding of full-stack web & game programming. My hobbies include reading, learning & machines in general. My mindset as a professional includes not minding either traveling or relocating when required. I'm prepared for experiencing adventures. I feel that going through a new experience is never a bad thing. If something about my profile piques your curiosity, then please feel free to contact me about it. Other than that, I recommend checking out my various personal & professional projects. 
+
+Relevant quote: "Keep iterating. Everyone starts somewhere. Becoming a beginner is always the first step towards becoming an expert." (source unknown)
 
 ------------
 

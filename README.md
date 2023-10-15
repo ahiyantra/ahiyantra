@@ -1,6 +1,6 @@
 # Greetings, Traveller! May You Enjoy Your Stay!
 
-## "AhiYantra" (@ahiyantra) Welcomes You!
+## "S.S.W." (ahiyantra) Welcomes You!
 
 ### Feel Free To Check Out My Personal Projects!
 
