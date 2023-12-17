@@ -1,0 +1,185 @@
+Skip to Content
+My Home
+Catalog
+
+Resources
+
+Community
+
+
+
+
+My Account menu toggle
+Introduction to Cybersecurity
+
+Overview
+
+Syllabus
+Course Progress
+Progress: 100%
+100%
+Trophy icon
+Reset Progress
+Course Description
+Start learning about cybersecurity! This course will cover a range of introductory cybersecurity topics.
+
+Details
+Certificate of Completion · View
+6 hours to complete in total
+Beginner
+
+What does cybersecurity mean and encompass? Let’s dive in!
+
+Cheatsheet
+
+Article
+What Is Cybersecurity?
+Article
+The Cybersecurity Industry
+Quiz
+What is Cybersecurity Quiz
+Resume
+Learn how cybersecurity evolved as a field, and what standards, regulations, and frameworks arose to respond to evolving cyber threats.
+
+Cheatsheet
+
+Info
+Introducing Cybersecurity History & Standards
+Article
+The Evolution of Cybersecurity
+Article
+Security Standards, Regulations, & Frameworks
+Learn about cyberattacks and how to avoid them. You’ll explore Malware, SQL Injection, Cross Site Scripting, Zero-Day Attacks, and more!
+
+Cheatsheet
+
+Info
+Introduction to Cyber Threats
+Lesson
+Malware
+Quiz
+Malware Quiz
+Article
+Phishing
+Article
+SQL Injection
+Article
+Cross-Site Scripting (XSS) & Cross-Site Request Forgery (CSRF)
+Article
+Zero-Day & DDoS Attacks
+What’s cryptography? What’s the difference between authentication and authorization? How do we keep our data secure online?
+
+Cheatsheet
+
+Info
+Introduction to Cryptography, Authentication, & Authorization
+Article
+Practical Cryptography: Encryption
+Article
+Practical Cryptography: Hashing
+Article
+Authentication & Authorization
+Project
+Encryption Project
+Learners will understand how data travels through a network, how to defend against malicious traffic, and how to configure a basic firewall.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Info
+Introduction to Network Security
+Lesson
+Network Basics
+Quiz
+Network Basics Quiz
+Article
+Firewalls
+Article
+Project: Packet-Filtering Firewall
+Article
+Wireless Network Security
+Article
+Project: Network Monitoring
+You will learn about some best practices and implement them. Pick up some security best practices for all your accounts and devices!
+
+Cheatsheet
+
+Info
+Introduction to Personal Security
+Article
+Personal Security Best Practices
+Article
+Personal Security: Hardening Your Device
+Article
+Windows Hardening
+Article
+Linux Hardening
+Now that you’ve learned about a variety of security practices, let’s look at case studies and exciting future developments in Cybesecurity.
+
+Cheatsheet
+
+Info
+Case Studies & Looking Ahead
+Article
+Case Studies: Notable Breaches
+Article
+Trending Topics in Cybersecurity (2020s)
+COMPANY
+About
+Careers
+Affiliates
+RESOURCES
+Docs
+Cheatsheets
+Projects
+Articles
+Blog
+COMMUNITY
+Forums
+Chapters
+Events
+INDIVIDUAL PLANS
+Pro Membership
+For Students
+ENTERPRISE PLANS
+For Business
+MOBILE
+Download on the App Store
+Get it on Google Play
+SUPPORT
+Help Center
+COURSE CATALOG
+Subjects
+Web Development
+Data Science
+Computer Science
+Developer Tools
+Machine Learning
+Code Foundations
+Web Design
+—
+Full Catalog
+Beta Content
+Roadmap
+Languages
+HTML & CSS
+Python
+JavaScript
+Java
+SQL
+Bash/Shell
+Ruby
+C++
+R
+C#
+PHP
+Go
+Swift
+Kotlin
+Privacy Policy
+Cookie Policy
+Do Not Sell My Personal Information
+Terms
+Made with️❤️in NYC © 2021 Codecademy

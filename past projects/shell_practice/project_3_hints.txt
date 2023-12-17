@@ -1,0 +1,113 @@
+
+Skip to Content
+Learn the Command Line
+
+Avatar
+Learn the Command Line: AthleticaBrief
+Objective
+LEARN THE COMMAND LINE
+Athletica
+In this project, you’ll use the commands you just learned to redirect files in Athletica, a sporting events directory.
+
+If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.
+
+Tasks
+15/15 Complete
+Mark the tasks as complete by checking them off
+1.
+Print the working directory.
+
+
+Hint
+pwd
+2.
+List all files and directories in long format, including hidden files.
+
+
+Hint
+ls -la
+3.
+Use cat to view the contents of basketball.txt.
+
+
+Hint
+cat basketball.txt
+4.
+Use cat to view the contents of hockey.txt.
+
+
+Hint
+cat hockey.txt
+5.
+Redirect the standard output of basketball.txt into hockey.txt. Then view the contents of hockey.txt.
+
+
+Hint
+cat basketball.txt > hockey.txt
+cat hockey.txt
+6.
+View the contents of lacrosse.txt.
+
+
+Hint
+cat lacrosse.txt
+7.
+Append the contents of lacrosse.txt to the contents of tennis.txt. Then, view the contents of tennis.txt.
+
+
+Hint
+cat lacrosse.txt >> tennis.txt
+cat tennis.txt
+8.
+Redirect the contents of gymnastics.txt as standard input for the cat command.
+
+
+Hint
+cat < gymnastics.txt
+9.
+Pipe the standard output of cat lacrosse.txt to the wordcount command.
+
+
+Hint
+cat lacrosse.txt | wc
+10.
+Use cat to view the contents of equipment.txt.
+
+
+Hint
+cat equipment.txt
+11.
+Sort the contents of equipment.txt in alphabetical order.
+
+
+Hint
+sort equipment.txt
+12.
+Use the uniq command to filter out adjacent, duplicate lines in equipment.txt.
+
+
+Hint
+sort equipment.txt | uniq 
+13.
+Use the grep command to search roster.txt for players from Japan.
+
+
+Hint
+grep Japan roster.txt
+14.
+Use the grep command to search for the string ‘player’ in the current directory (.), and output filenames and lines for matched results.
+
+
+Hint
+grep -R player . 
+15.
+Use cat to view the contents of games.txt. Then, use sed to replace all instances of the word ‘loss’ with ‘win’ in games.txt.
+
+
+Hint
+sed 's/loss/win/g' games.txt
+Terminal
+
+
+Athletica
+15/15 Complete

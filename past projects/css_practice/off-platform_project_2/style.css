@@ -1,0 +1,154 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+header {
+
+  background-color: black;
+
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  z-index: 10;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.logo img {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+}
+
+nav li {
+  margin: 10px 5px;
+  display: inline-block;
+}
+
+nav ul {
+  margin: 10px 5px;
+  display: inline-block;
+}
+
+.main-content {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  top: 70px;
+}
+
+.box {
+  margin: 0 1%;
+}
+
+.banner-0 {
+  height: 700px;
+  width: 1200px;
+  background-image: url('img-mission-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#our-mission-section {
+
+  background-color: black;
+
+  opacity: 1;
+  position: relative;
+  top: 300px;
+  z-index: 5;
+}
+
+#featured-tea-section {
+  text-align: center;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
+.item {
+  display: inline-block;
+  max-width: 300px;
+  max-height 200px;
+}
+
+.banner-1 {
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  background-image: url('img-locations-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#locations {
+  background-color: transparent;
+}
+
+#locations .center {
+  background-color: transparent;
+}
+
+#locations h2 {
+  background-color: transparent;
+  position: relative;
+  top: 80px;
+  z-index: 5;
+}
+
+.location {
+  background-color: black;
+  color: white;
+  position: relative;
+  opacity: 1;
+  top: 100px;
+  margin: 20px;
+  line-height: 75px;
+  z-index: 5;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+
+#contact-section {
+  line-height: 75px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+footer {
+  margin-left: 20px;
+}

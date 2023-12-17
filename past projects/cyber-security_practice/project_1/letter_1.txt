@@ -1,0 +1,16 @@
+From: Evil Corp.
+To: Henchman 71
+
+Dear Henchman,
+
+Welcome to Evil Corp! Your first task will be to destroy 
+the planet of Kitten-topia, well known for being inhabited 
+almost exclusively by kittens. Here at evil corp we are not 
+fond of kittens, and would like you to destroy it. You will 
+receive further instructions in subsequent letters. Please 
+indicate you received this message with a base64 encoded 
+response, to prevent interception. 
+
+Best,
+
+Evil Corp.

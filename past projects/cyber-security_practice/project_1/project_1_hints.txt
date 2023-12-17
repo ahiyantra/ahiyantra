@@ -1,0 +1,188 @@
+Skip to Content
+
+
+Avatar
+Introduction to Cybersecurity: Encryption ProjectBrief
+Objective
+INTRODUCTION TO CYBERSECURITY
+Encryption Project
+You are a spy embedded in Evil Corp, an organization determined to carry out nefarious deeds. You’ve intercepted a series of letters. If you can figure out what the messages say, maybe you can stop whatever their secret plan is in time!
+
+This project will require you to use some simple terminal commands to decrypt and translate the messages.
+
+Tasks
+7/7 Complete
+Mark the tasks as complete by checking them off
+Using the Terminal and reading what we can
+1.
+You’re in! Let’s take a look at what’s in this folder open in the terminal right now. It’s supposed to have the letters you intercepted.
+
+In order to see a list of files in your current directory, type this command:
+
+$ ls
+and hit Enter or return key. You can use this command whenever you want to see the files in the current directory.
+
+
+Hint
+$ ls
+and hit the Enter or return key.
+
+2.
+All right it looks like we have a bunch of letters!
+
+Examine them in order that they’re numbered to see if any of them are readable.
+
+In order to output a file’s content in the terminal, type cat followed by the name of the file you want to read, then hit Enter.
+
+To read letter 1: you would type:
+
+$ cat letter_1.txt
+and hit Enter or return key.
+
+To clear the screen to make more room, use the
+
+$ clear
+command.
+
+When you have examined letters 1-3 stored in .txt files, move on.
+
+
+Hint
+To read letter 1, enter the command
+
+$ cat letter_1.txt
+To clear the screen for the next letter, use the command
+
+$ clear
+To read letter 2, enter the command
+
+$ cat letter_2.txt
+To clear the screen for the next letter, use the command
+
+$ clear
+To read letter 3, enter the command
+
+$ cat letter_3.txt
+Decryption
+3.
+It seems like letter 1 contains a clue that we can use to read letter 2. Something about base64, which is a type of encoding that transforms text into a form that is easier for computers to read and store.
+
+We might not actually need to decipher letter 2 with a key. Let’s try the built-in base64 command.
+
+base64 -d letter_2.txt
+The -d stands for decode, by the way.
+
+Oops! We also need the cat command here to grab the contents of the file. Enter this command now:
+
+cat letter_2.txt | base64 -d
+Did it do the trick?
+
+
+Hint
+$ base64 -d letter_2.txt
+won’t give us anything because the base64 command needs to take a string instead of a filename.
+
+Use
+
+$ cat letter_2.txt | base64 -d
+to get the content from the file, then pass it to base64 decoding.
+
+4.
+Excellent work on Letter 2! Letter 3 wasn’t readable at first, but now we know that we need to decrypt it using the Caesar Cipher with a key of 15.
+
+In order to decrypt the Caesar Cipher in letter 3, you will need to use the tr command. tr “rotates” each letter by a certain amount. For example:
+
+$ tr "K-ZA-Jk-za-j" "A-Za-z" 
+will rotate each letter 10 spots backwards, because K is 10 letters away from A, and j indicates that it’s rotated backwards. The other parts of the command mean to apply it to all uppercase and lowercase letters from a to z.
+
+To decrypt with a key of 11 would be:
+
+$ tr "L-ZA-Kl-za-k" "A-Za-z
+We also need to use the cat command to read the file content first, followed by the | key, so the complete command to decrypt a Caesar Cipher in a file with a key of 10 would be:
+
+cat letter_3.txt | tr "K-ZA-Jk-za-j" "A-Za-z"
+Try to come up with the correct command for a key of 15. If you need help, take a look at the hint!
+
+
+Hint
+15 away from ‘A’ is ‘P’.
+
+The final command is:
+
+$ cat letter_3.txt | tr "P-ZA-Op-za-o" "A-Za-z"
+5.
+All right! After decrypting the Caesar cipher in letter 3, we have the password to the letter 4 zip file! Let’s go ahead and see what’s inside.
+
+Zip files not only compress large files but are also a form of encryption that allows you to put a password on sensitive files.
+
+In order to unzip this file, type unzip followed by the file name
+
+$ unzip letter_3.zip
+and then press Enter or return. When you are prompted, enter the password you got from Letter 3. Note that you will not see the password being typed, but if you type in the right password and hit Enter, the file should unzip.
+
+After it’s unzipped, use cat to take a look at the newly available letter_4.txt.
+
+Can you read it now?
+
+
+Hint
+The password you got from letter 3 was: LaserBeamsDestroyKittens
+
+Again, you will not see the password you type appear on the screen, but after you type or paste it in and press Enter, you should see a message saying that letter_4.txt is now available.
+
+Now, use:
+
+$ cat letter_4.txt
+to read that file!
+
+If you’ve had trouble and desperately want to leave the password portal, you can use Ctrl + C.
+
+6.
+Excellent work, we are almost there! Reading letter 4 gave us another password we can use to unzip letter 5!
+
+Repeat the unzip and password-entering process for letter 5.
+
+You’ll see what what happened after the password is accepted is that letter_5 is in fact a folder with two files inside!
+
+To see the contents inside, you can use the command:
+
+$ ls letter_5
+To read the letter_5.txt, you need to specify that it’s inside the folder letter_5. Run this command:
+
+$ cat letter_5/letter_5.txt
+Once you’ve read it, take down this password and move onto the next step!
+
+
+Hint
+If you want to leave the password portal, you can use Ctrl + C. You can read the letter containing the password again using:
+
+cat letter_4.txt
+Use clear every time you need more room on the screen!
+
+7.
+We got yet another password from reading letter 5. There’s also another file called disable_the_lasers.sh in the letter_5 folder.
+
+.sh is a file extension for scripts that run in the terminal. We can run it like this:
+
+$ ./letter_5/disable_the_lasers.sh
+and enter the password.
+
+Once you’ve done this… Congratulations! You have saved Kitten-topia! Who would have thought the password to the laser was such a weak password? Looks like Evil Corp. is in need of a good cybersecurity consultant.
+
+
+Hint
+After executing disable_the_lasers.sh with the following command:
+
+$ ./letter_5/disable_the_lasers.sh
+you will be prompted with the password from letter_5.txt.
+
+If you want to leave the password portal, you can use Ctrl + C. You can read the password again using:
+
+$ cat letter5/letter_5.txt
+Use clear every time you need more room on the screen!
+
+Terminal
+
+7/7 Complete
+Back
+Next

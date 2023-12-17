@@ -1,0 +1,206 @@
+Skip to Content
+My Home
+Course Menu
+Get Unstuck
+Tools
+
+
+
+Avatar
+Learn A-Frame (VR): Solar System (Part II)Brief
+Objective
+LEARN A-FRAME (VR)
+Solar System (Part II)
+The planetary system that we call home is located in an outer spiral arm of the Milky Way galaxy.
+
+Solar
+
+Our solar system consists of our star, the Sun, and everything bound to it by gravity — the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune, dwarf planets such as Pluto, dozens of moons and millions of asteroids, comets, and meteoroids.
+
+But what would your solar system look like?
+
+In this project, we will add textures, sky, texts, animations, and more in index.html.
+
+Note: This is part 2 of a cumulative project in three parts. In parts 2 & 3, we will add textures and animations to the solar system.
+
+Part I. Creating the solar system.
+Part II: Polishing.
+Part III: Add interactions.
+Tasks
+10/10 Complete
+Mark the tasks as complete by checking them off
+Grabbing the code:
+1.
+Because this is a cumulative project, we are going to grab the code from Solar System (Part I).
+
+Make sure to copy and paste the code in here.
+
+
+Hint
+You can also use the starting code in the code editor, too.
+
+Adding textures to the planets:
+2.
+Let’s add some image textures for our planets!
+
+Add an <a-assets> element in <a-scene> to use A-Frame’s asset management system.
+
+
+Hint
+A-frame has an asset management system that makes complex environments with multiple parts load faster. The system makes it easier for the browser to cache assets and A-Frame will make sure all of the assets are fetched before rendering.
+
+To utilize the asset management system, all we need is an <a-assets> element around every HTML element we want to include in the asset management system:
+
+<a-scene>
+  <a-assets>
+    <!-- Asset management system -->
+  </a-assets>
+ 
+  <!-- Rest of <a-scene> -->
+3.
+Here are some of the skins that we made for you. They should already be your folder:
+
+sun.jpg
+mercury.jpg
+venus.jpg
+earth.jpg
+mars.jpg
+jupiter.jpg
+uranus.jpg
+neptune.jpg
+Feel free to use these or find other texture images on Google.
+
+Add them to the asset management system.
+
+
+Hint
+You could do this one multiple lines:
+
+<a-assets>
+  <img 
+    id="sun" 
+    src="sun.jpg">
+</a-assets>
+Or in one line:
+
+<a-assets>
+  <img id="sun" src="sun.jpg">
+</a-assets>
+4.
+Now we have all the textures in the asset management system, let’s use them for your planets!
+
+Delete the color component of each of your <a-sphere> planets and add a src of the image texture id. Remember to add the # before the id name.
+
+
+Hint
+<!-- Asset management system -->
+<a-assets>
+  <img 
+    id="sun" 
+    src="sun.jpg">
+  <!-- more assets-->
+</a-assets>
+ 
+<!-- Sun -->
+<a-sphere 
+  src="#sun"
+  position="-13 2 -10" 
+  radius="4"></a-sphere>
+Extra touches:
+5.
+Add an <a-sky> with the following image or one of your choosing:
+
+space.jpg
+
+Hint
+Don’t forget to include the file in the asset management system first.
+
+6.
+Add one or more light sources with <a-light>.
+
+
+Hint
+Point lights are like light bulbs; we can position them around the scene, and the effect of the point light on an entity depends on its distance to the entity:
+
+<a-light 
+  type="point" 
+  intensity="2" 
+  position="2 4 4"></a-light>
+7.
+Add the name of each planet using <a-text>. Or a story about the solar system.
+
+
+Hint
+Here’s an example using <a-text>:
+
+<a-text 
+  value="Earth"
+  color="#BBB"
+  position="-0.9 0.2 -3"
+  scale="1.5 1.5 1.5"></a-text>
+8.
+The outer space is a vacuum, but for our solar system, there’s sound!
+
+Find a sound clip online and add it to your solar system.
+
+Animations:
+9.
+Almost all of the planets in our solar system rotate in a counter-clockwise motion. The two anomalies in question are Venus and Uranus. These planets rotate in the clockwise or retrograde direction.
+
+Use the animation component to add some rotational animation.
+
+Fun fact: A single day on Venus is longer than an Earth year! It takes 243 Earth days to complete a Venus rotation (but it only takes 224.7 days to complete each orbit).
+
+
+Hint
+It should look something like:
+
+<!-- Earth -->
+<a-sphere 
+  src="#earth"
+  position="-3 2 -15" 
+  radius=".5"
+  animation="property: object3D.rotation.y;
+    to: 360;
+    dur: 10000;
+    loop: true">
+</a-sphere>
+Solutions:
+10.
+Sample solutions:
+
+solar.html
+P.S. If you make something cool, share it with us!
+
+
+Hint
+Tag @Codecademy on Twitter or make a Pull Request to the Learn A-Frame GitHub repo for a chance be featured in the course.
+
+Code Editor
+
+files
+
+MecuryTexture_1.jpg
+MecuryTexture_2.jpg
+earth.jpg
+footprint.jpg
+index.html
+jupiter.jpg
+mars.jpg
+mercury.jpg
+neptune.jpg
+saturn.jpg
+space.jpg
+space360.jpg
+sun.jpg
+uranus.jpg
+venus.jpg
+
+Code Editor
+
+Web Browser
+https://localhost/
+
+10/10 Complete
+Back
+Next

@@ -1,0 +1,17 @@
+Skip to Content
+My Home
+Path Menu
+Get Unstuck
+
+
+Avatar
+Next Steps
+Congratulations on finishing the Learn How to Build Websites skill path!
+
+You now have many of the skills that you need to work as a freelance web developer. There’s a few different routes that you might take from here:
+
+Keep polishing your web design skills. Courses like Learn Color Design and Learn Navigation Design could help you sharpen your design thinking while continuing to build out your CSS skills.
+If you want to add interactivity to your websites, JavaScript is probably your next language. Taking Introduction to JavaScript and then Building Interactive JavaScript Websites on Codecademy could be a great introduction to adding JavaScript to your front-end toolkit.
+If you want a deep-dive into both frontend (browser side) or backend (server side) web development, you could jump right into the Web Development career path. Many of the lessons and projects that you’ve completed here are used in that path as well, giving you a head start! You can jump right into JavaScript and the more complicated application logic that will drive a web application.
+Back
+Next

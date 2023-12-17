@@ -1,0 +1,915 @@
+number5@number5-HP-Notebook:~/YUKTI$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialise an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+number5@number5-HP-Notebook:~/YUKTI$ git status
+fatal: not a git repository (or any of the parent directories): .git
+number5@number5-HP-Notebook:~/YUKTI$ git init
+Initialised empty Git repository in /home/number5/YUKTI/.git/
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Library-pdb/
+	Library-pdbqt/
+	README.md
+	prepare_dpf4.py
+	prepare_gpf4.py
+	sunya.py
+	target_1.pdb
+	target_1.pdbqt
+	target_2.pdb
+	target_2.pdbqt
+	top_results.txt
+	yukti.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+number5@number5-HP-Notebook:~/YUKTI$ git add Library-pdb/
+number5@number5-HP-Notebook:~/YUKTI$ git add Library-pdbqt/
+number5@number5-HP-Notebook:~/YUKTI$ git add README.md
+number5@number5-HP-Notebook:~/YUKTI$ git add prepare_dpf4.py
+number5@number5-HP-Notebook:~/YUKTI$ git add sunya.py
+number5@number5-HP-Notebook:~/YUKTI$ git add target_1.pdb
+number5@number5-HP-Notebook:~/YUKTI$ git add target_1.pdbqt
+number5@number5-HP-Notebook:~/YUKTI$ git add target_2.pdb
+number5@number5-HP-Notebook:~/YUKTI$ git add target_2.pdbqt
+number5@number5-HP-Notebook:~/YUKTI$ git add top_results.txt
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   Library-pdb/compound_1.pdb
+	new file:   Library-pdb/compound_10.pdb
+	new file:   Library-pdb/compound_2.pdb
+	new file:   Library-pdb/compound_3.pdb
+	new file:   Library-pdb/compound_4.pdb
+	new file:   Library-pdb/compound_5.pdb
+	new file:   Library-pdb/compound_6.pdb
+	new file:   Library-pdb/compound_7.pdb
+	new file:   Library-pdb/compound_8.pdb
+	new file:   Library-pdb/compound_9.pdb
+	new file:   Library-pdbqt/compound_1.pdbqt
+	new file:   Library-pdbqt/compound_10.pdbqt
+	new file:   Library-pdbqt/compound_2.pdbqt
+	new file:   Library-pdbqt/compound_3.pdbqt
+	new file:   Library-pdbqt/compound_4.pdbqt
+	new file:   Library-pdbqt/compound_5.pdbqt
+	new file:   Library-pdbqt/compound_6.pdbqt
+	new file:   Library-pdbqt/compound_7.pdbqt
+	new file:   Library-pdbqt/compound_8.pdbqt
+	new file:   Library-pdbqt/compound_9.pdbqt
+	new file:   README.md
+	new file:   prepare_dpf4.py
+	new file:   sunya.py
+	new file:   target_1.pdb
+	new file:   target_1.pdbqt
+	new file:   target_2.pdb
+	new file:   target_2.pdbqt
+	new file:   top_results.txt
+	new file:   yukti.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	LICENSE
+	prepare_gpf4.py
+
+number5@number5-HP-Notebook:~/YUKTI$ git add prepare_gpf4.py
+number5@number5-HP-Notebook:~/YUKTI$ git add LICENSE
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   LICENSE
+	new file:   Library-pdb/compound_1.pdb
+	new file:   Library-pdb/compound_10.pdb
+	new file:   Library-pdb/compound_2.pdb
+	new file:   Library-pdb/compound_3.pdb
+	new file:   Library-pdb/compound_4.pdb
+	new file:   Library-pdb/compound_5.pdb
+	new file:   Library-pdb/compound_6.pdb
+	new file:   Library-pdb/compound_7.pdb
+	new file:   Library-pdb/compound_8.pdb
+	new file:   Library-pdb/compound_9.pdb
+	new file:   Library-pdbqt/compound_1.pdbqt
+	new file:   Library-pdbqt/compound_10.pdbqt
+	new file:   Library-pdbqt/compound_2.pdbqt
+	new file:   Library-pdbqt/compound_3.pdbqt
+	new file:   Library-pdbqt/compound_4.pdbqt
+	new file:   Library-pdbqt/compound_5.pdbqt
+	new file:   Library-pdbqt/compound_6.pdbqt
+	new file:   Library-pdbqt/compound_7.pdbqt
+	new file:   Library-pdbqt/compound_8.pdbqt
+	new file:   Library-pdbqt/compound_9.pdbqt
+	new file:   README.md
+	new file:   prepare_dpf4.py
+	new file:   prepare_gpf4.py
+	new file:   sunya.py
+	new file:   target_1.pdb
+	new file:   target_1.pdbqt
+	new file:   target_2.pdb
+	new file:   target_2.pdbqt
+	new file:   top_results.txt
+	new file:   yukti.py
+
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master (root-commit) 384c6a4] one of the first three commits for the first major personal project
+ 31 files changed, 1278 insertions(+)
+ create mode 100644 LICENSE
+ create mode 100755 Library-pdb/compound_1.pdb
+ create mode 100755 Library-pdb/compound_10.pdb
+ create mode 100755 Library-pdb/compound_2.pdb
+ create mode 100755 Library-pdb/compound_3.pdb
+ create mode 100755 Library-pdb/compound_4.pdb
+ create mode 100755 Library-pdb/compound_5.pdb
+ create mode 100755 Library-pdb/compound_6.pdb
+ create mode 100755 Library-pdb/compound_7.pdb
+ create mode 100755 Library-pdb/compound_8.pdb
+ create mode 100755 Library-pdb/compound_9.pdb
+ create mode 100755 Library-pdbqt/compound_1.pdbqt
+ create mode 100755 Library-pdbqt/compound_10.pdbqt
+ create mode 100755 Library-pdbqt/compound_2.pdbqt
+ create mode 100755 Library-pdbqt/compound_3.pdbqt
+ create mode 100755 Library-pdbqt/compound_4.pdbqt
+ create mode 100755 Library-pdbqt/compound_5.pdbqt
+ create mode 100755 Library-pdbqt/compound_6.pdbqt
+ create mode 100755 Library-pdbqt/compound_7.pdbqt
+ create mode 100755 Library-pdbqt/compound_8.pdbqt
+ create mode 100755 Library-pdbqt/compound_9.pdbqt
+ create mode 100755 README.md
+ create mode 100755 prepare_dpf4.py
+ create mode 100755 prepare_gpf4.py
+ create mode 100755 sunya.py
+ create mode 100755 target_1.pdb
+ create mode 100755 target_1.pdbqt
+ create mode 100755 target_2.pdb
+ create mode 100755 target_2.pdbqt
+ create mode 100755 top_results.txt
+ create mode 100755 yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+nothing to commit, working tree clean
+number5@number5-HP-Notebook:~/YUKTI$ remote add origin https://github.com/ahiyantra/YUKTI.git
+bash: remote: command not found
+number5@number5-HP-Notebook:~/YUKTI$ git remote add origin https://github.com/ahiyantra/YUKTI.git
+number5@number5-HP-Notebook:~/YUKTI$ GIT STATUS
+bash: GIT: command not found
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+nothing to commit, working tree clean
+number5@number5-HP-Notebook:~/YUKTI$ git remote add origin https://github.com/ahiyantra/YUKTI.git
+fatal: remote origin already exists.
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 20.06 KiB | 3.34 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/ahiyantra/YUKTI.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add README.md
+number5@number5-HP-Notebook:~/YUKTI$ git commit README.md
+[master b2a7c25] made a change to improve readability
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+fatal: unable to access 'https://github.com/ahiyantra/YUKTI.git/': Could not resolve host: github.com
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   384c6a4..b2a7c25  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add README.md
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master f16df85] made a change to improve readability
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 316 bytes | 316.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   b2a7c25..f16df85  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add README.md
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master 660c826] made a change to improve readability
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 444 bytes | 444.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   f16df85..660c826  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add README.md
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master efc218e] made changes to improve readability
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 319 bytes | 319.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   660c826..efc218e  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add README.md
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master bc9d10b] made changes to improve readability
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   efc218e..bc9d10b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master 009fe73] made changes to improve readability
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+fatal: unable to access 'https://github.com/ahiyantra/YUKTI.git/': Could not resolve host: github.com
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   bc9d10b..009fe73  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master 679448d] made changes to improve functionality
+ 1 file changed, 4 insertions(+)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 401 bytes | 401.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   009fe73..679448d  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   sunya.py
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add sunya.py
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   sunya.py
+	modified:   yukti.py
+
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master 0ce9e41] made changes to improve functionality
+ 2 files changed, 46 insertions(+), 20 deletions(-)
+ rewrite sunya.py (73%)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+fatal: unable to access 'https://github.com/ahiyantra/YUKTI.git/': Empty reply from server
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 675 bytes | 675.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   679448d..0ce9e41  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master 226d010] made changes to improve functionality
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 367 bytes | 367.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   0ce9e41..226d010  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master 1fc2a28] made changes to improve functionality
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 370 bytes | 370.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   226d010..1fc2a28  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master dd71972] made changes to improve functionality
+ 1 file changed, 245 insertions(+), 264 deletions(-)
+ rewrite yukti.py (67%)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+fatal: unable to access 'https://github.com/ahiyantra/YUKTI.git/': Could not resolve host: github.com
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+fatal: unable to access 'https://github.com/ahiyantra/YUKTI.git/': Could not resolve host: github.com
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.07 KiB | 1.07 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   1fc2a28..dd71972  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit
+[master 3b93c28] made changes to improve functionality
+ 1 file changed, 32 insertions(+), 6 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+fatal: unable to access 'https://github.com/ahiyantra/YUKTI.git/': Could not resolve host: github.com
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 553 bytes | 553.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   dd71972..3b93c28  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit -m "made changes to improve functionality"
+[master 483ec7b] made changes to improve functionality
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   3b93c28..483ec7b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+	deleted:    sunya.py
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add README.md
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit -m "made changes to improve both readability and functionality"
+[master fedef62] made changes to improve both readability and functionality
+ 2 files changed, 15 insertions(+), 15 deletions(-)
+ rewrite README.md (68%)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+fatal: unable to access 'https://github.com/ahiyantra/YUKTI.git/': Could not resolve host: github.com
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+To https://github.com/ahiyantra/YUKTI.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/ahiyantra/YUKTI.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+number5@number5-HP-Notebook:~/YUKTI$ git push --help
+number5@number5-HP-Notebook:~/YUKTI$ git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (2/2), 651 bytes | 651.00 KiB/s, done.
+From https://github.com/ahiyantra/YUKTI
+   483ec7b..20c85e5  master     -> origin/master
+Removing sunya.py
+Merge made by the 'recursive' strategy.
+ sunya.py | 16 ----------------
+ 1 file changed, 16 deletions(-)
+ delete mode 100755 sunya.py
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Enumerating objects: 12, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 688 bytes | 688.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   20c85e5..c0e4bcb  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add README.md
+number5@number5-HP-Notebook:~/YUKTI$ git commit -m "made changes to improve readability"
+[master 164786a] made changes to improve readability
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 328 bytes | 328.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   c0e4bcb..164786a  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit -m "made changes to improve functionality"
+[master c2c3e7a] made changes to improve functionality
+ 1 file changed, 68 insertions(+), 5 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git pusj -u origin master
+git: 'pusj' is not a git command. See 'git --help'.
+
+The most similar command is
+	push
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 822 bytes | 822.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   164786a..c2c3e7a  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit -m "made changes to improve functionality"
+[master 2fe141b] made changes to improve functionality
+ 1 file changed, 26 insertions(+), 26 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 492 bytes | 492.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   c2c3e7a..2fe141b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit -m "made changes to improve functionality"
+[master 5a1e9d2] made changes to improve functionality
+ 1 file changed, 26 insertions(+), 12 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+fatal: unable to access 'https://github.com/ahiyantra/YUKTI.git/': Could not resolve host: github.com
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 472 bytes | 472.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   2fe141b..5a1e9d2  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add yukti.py
+number5@number5-HP-Notebook:~/YUKTI$ git commit -m "made changes to improve functionality"
+[master cbc78a7] made changes to improve functionality
+ 1 file changed, 115 insertions(+), 39 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.01 KiB | 516.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   5a1e9d2..cbc78a7  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add .
+number5@number5-HP-Notebook:~/YUKTI$ git commit -m "made changes to improve functionality"
+[master 61e2348] made changes to improve functionality
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 365 bytes | 365.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   cbc78a7..61e2348  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add .
+number5@number5-HP-Notebook:~/YUKTI$ git commit -m "made changes as advance preparation for improvement"
+[master 58655a9] made changes as advance preparation for improvement
+ 1 file changed, 13 insertions(+), 9 deletions(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 494 bytes | 494.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   61e2348..58655a9  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   yukti.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/YUKTI$ git add .
+number5@number5-HP-Notebook:~/YUKTI$ git commit -m "made changes to improve functionality"
+[master 5ea97de] made changes to improve functionality
+ 1 file changed, 45 insertions(+), 1 deletion(-)
+number5@number5-HP-Notebook:~/YUKTI$ git push -u origin master
+Username for 'https://github.com': ahiyantra
+Password for 'https://ahiyantra@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 633 bytes | 633.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ahiyantra/YUKTI.git
+   58655a9..5ea97de  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/YUKTI$ 
+number5@number5-HP-Notebook:~/ahiyantra/YUKTI$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   LICENSE
+
+no changes added to commit (use "git add" and/or "git commit -a")
+number5@number5-HP-Notebook:~/ahiyantra/YUKTI$ git add .
+number5@number5-HP-Notebook:~/ahiyantra/YUKTI$ git commit -m "mostly unknown changes which occurred during an attempt to move the folder/directory/repository"
+[master 6924d3c] mostly unknown changes which occurred during an attempt to move the folder/directory/repository
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ mode change 100644 => 100755 LICENSE
+number5@number5-HP-Notebook:~/ahiyantra/YUKTI$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 298 bytes | 298.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ahiyantra/YUKTI.git
+   5ea97de..6924d3c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+number5@number5-HP-Notebook:~/ahiyantra/YUKTI$ 

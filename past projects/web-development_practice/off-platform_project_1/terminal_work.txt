@@ -1,0 +1,36 @@
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0$ mkdir excursion
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0$ cd excursion
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0/excursion$ mkdir resources
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0/excursion$ mkdir resources/css
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0/excursion$ touch index.html
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0/excursion$ touch resources/css/style.css
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0/excursion$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialised empty Git repository in /home/number5/ahiyantra/KHAKA/web-development_practice/off-platform_project_0/excursion/.git/
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0/excursion$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	index.html
+	resources/
+
+nothing added to commit but untracked files present (use "git add" to track)
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0/excursion$ git add .
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0/excursion$ git commit -m "initiation"
+[master (root-commit) 0b4b9ce] initiation
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 resources/css/style.css
+number5@number5-HP-Notebook:~/ahiyantra/KHAKA/web-development_practice/off-platform_project_0/excursion$ 

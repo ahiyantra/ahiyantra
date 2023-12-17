@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<!--
+
+xyz
+
+-->
+
+<html>
+  <head>
+    <!-- Header section -->
+    
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js">
+    </script>
+  </head>
+  <body>
+    <!-- The Body -->
+
+    <a-scene background="color: black">
+
+      <a-assets>
+        <!-- Asset management system -->
+        
+        <img 
+          id="sun" 
+          src="sun.jpg">
+
+        <img 
+          id="mercury" 
+          src="mercury.jpg">
+        
+        <img 
+          id="venus" 
+          src="venus.jpg">
+        
+        <img 
+          id="earth" 
+          src="earth.jpg">
+        
+        <img 
+          id="mars" 
+          src="mars.jpg">
+        
+        <img 
+          id="jupiter" 
+          src="jupiter.jpg">
+        
+        <img 
+          id="uranus" 
+          src="uranus.jpg">
+        
+        <img 
+          id="neptune" 
+          src="neptune.jpg">
+        
+        <img 
+          id="space" 
+          src="space.jpg">
+
+        <a-audio id="bgm" src="https://www.nasa.gov/specials/sounds/FILTERED%20HIGHLIGHTS%20-%20Sol16RoverDriveHighlights.wav">
+        </a-audio> <!-- NASA-FILTERED_HIGHLIGHTS-Sol16RoverDriveHighlights.wav -->
+          
+      </a-assets>
+
+      <a-sphere 
+        radius="6" 
+        position="0 0 -30" 
+        src="#sun"
+        animation="property: object3D.rotation.y;
+        to: 360;
+        dur: 5000;
+        loop: true">
+      </a-sphere>
+
+      <a-text 
+        value="SURYA" 
+        color="orange" 
+        align="center" 
+        position="0 8 -30" 
+        scale="7 7 7">
+      </a-text>
+
+      <a-sphere 
+        radius="3" 
+        position="20 0 -30" 
+        src="#earth"
+        animation="property: object3D.rotation.y;
+        to: 360;
+        dur: 5000;
+        loop: true">
+      </a-sphere>
+
+      <a-text 
+        value="PRITHAVI" 
+        color="orange" 
+        align="center" 
+        position="20 5 -30" 
+        scale="7 7 7">
+      </a-text>
+
+      <a-sphere 
+        radius="2" 
+        position="-15 0 -30" 
+        src="#mercury"
+        animation="property: object3D.rotation.y;
+        to: 360;
+        dur: 5000;
+        loop: true">
+      </a-sphere>
+
+      <a-text 
+        value="BUDHA" 
+        color="orange" 
+        align="center" 
+        position="-15 4 -30" 
+        scale="7 7 7">
+      </a-text>
+
+      <a-sphere 
+        radius="5" 
+        position="-5 15 -30" 
+        color="skyblue" 
+        opacity="0.5"
+        animation="property: object3D.rotation.y;
+        to: 360;
+        dur: 5000;
+        loop: true">
+      </a-sphere>
+
+      <a-sphere 
+        radius="4" 
+        position="-5 15 -30" 
+        src="#mars"
+        animation="property: object3D.rotation.y;
+        to: 360;
+        dur: 5000;
+        loop: true">
+      </a-sphere>
+
+      <a-text 
+        value="MANGALA" 
+        color="orange" 
+        align="center" 
+        position="-5 22 -30" 
+        scale="7 7 7">
+      </a-text>
+
+      <a-sphere 
+        radius="5" 
+        position="5 -15 -30" 
+        color="aquamarine" 
+        opacity="0.5"
+        animation="property: object3D.rotation.y;
+        to: 360;
+        dur: 5000;
+        loop: true">
+      </a-sphere>
+
+      <a-sphere 
+        radius="4" 
+        position="5 -15 -30" 
+        src="#venus"
+        animation="property: object3D.rotation.y;
+        to: 360;
+        dur: 5000;
+        loop: true">
+      </a-sphere>
+
+      <a-text 
+        value="SHUKRA" 
+        color="orange" 
+        align="center" 
+        position="5 -8 -30" 
+        scale="7 7 7">
+      </a-text>
+
+      <a-sky src="#space">
+      </a-sky>
+
+      <a-entity 
+        id="zeroLightSphere" 
+        geometry="primitive: sphere; radius: 1" 
+        material="shader: flat" 
+        light="type: point; color: #FFF" 
+        position="5 15 -30"
+        animation="property: object3D.position.x;
+        to: 10; 
+        dir: alternate; 
+        dur: 1000; 
+        loop: true">
+      </a-entity>
+
+      <a-entity 
+        id="oneLightSphere" 
+        geometry="primitive: sphere; radius: 1" 
+        material="shader: flat" 
+        light="type: point; color: #FFF" 
+        position="-5 -15 -30"
+        animation="property: object3D.position.x;
+        to: -10; 
+        dir: alternate; 
+        dur: 1000; 
+        loop: true">
+      </a-entity>
+
+      <a-sound src="#bgm" autoplay="true">
+      </a-sound>
+
+    </a-scene>
+  </body>
+</html>

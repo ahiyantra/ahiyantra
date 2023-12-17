@@ -1,0 +1,9 @@
+arabic.txt
+bengali.txt
+chinese.txt
+hebrew.txt
+hindi.txt
+japanese.txt
+korean.txt
+malay.txt
+punjabi.txt

@@ -1,0 +1,188 @@
+Skip to Content
+My Home
+Catalog
+
+Resources
+
+Community
+
+
+
+
+My Account menu toggle
+Learn Python 2
+
+Overview
+
+Syllabus
+Course Progress
+Progress: 0%
+0%
+Trophy icon
+Reset Progress
+Course Description
+Learn the basics of the world’s fastest growing and most popular programming language used by software engineers, analysts, data scientists, and machine learning engineers alike.
+
+Details
+Earn a certificate of completion
+25 hours to complete in total
+Beginner
+
+In this course, learn about the syntax of the Python programming language!
+
+Lesson
+Python Syntax
+Project
+Tip Calculator
+Quiz
+Python Syntax
+Resume
+This course will introduce you to strings and console output in Python.
+
+Lesson
+Strings & Console Output
+Lesson
+Date and Time
+Project
+Python Mad Libs
+Quiz
+Strings and Console Output
+Learn how to use conditionals and control flow to create programs that generate different outcomes.
+
+Lesson
+Conditionals & Control Flow
+Lesson
+PygLatin
+Project
+Area Calculator
+Quiz
+Conditionals and Control Flow
+Learn how to create and use functions in Python!
+
+Lesson
+Functions
+Lesson
+Taking a Vacation
+Project
+Number Guess
+Quiz
+Functions
+In this course, you will learn about the data structures lists and dictionaries.
+
+Lesson
+Python Lists and Dictionaries
+Lesson
+A Day at the Supermarket
+Project
+Rock, Paper, Scissors
+Quiz
+Lists and Dictionaries
+Use what you’ve learned so far to manage your own class.
+
+Lesson
+Student Becomes the Teacher
+Now that you’ve learned about lists, let’s turbo-charge them with functions.
+
+Lesson
+Lists and Functions
+Lesson
+Battleship!
+Quiz
+Lists and Functions
+Learn about ‘while’ and ‘for’ loops in Python.
+
+Lesson
+Loops
+Lesson
+Practice Makes Perfect
+Project
+Command Line Calendar
+Quiz
+Loops
+In this project, we’ll write a program to compute test scores.
+
+Lesson
+Exam Statistics
+Learn some of the more complex aspects of Python, including data structures, list comprehensions, list slicing, and lambda expressions.
+
+Lesson
+Advanced Topics in Python
+Lesson
+Introduction to Bitwise Operators
+Project
+RGB-HEX Converter
+Learn what classes are, why they’re important, and how to use them effectively.
+
+Lesson
+Introduction to Classes
+Lesson
+Classes
+Project
+Bank Account
+Quiz
+Introduction to Classes
+Apply what you’ve learned about Python to a real-world application.
+
+Lesson
+File Input/Output
+Project
+DNA Analysis
+Quiz
+File Input and Output
+COMPANY
+About
+Careers
+Affiliates
+RESOURCES
+Docs
+Cheatsheets
+Projects
+Articles
+Blog
+COMMUNITY
+Forums
+Chapters
+Events
+INDIVIDUAL PLANS
+Pro Membership
+For Students
+ENTERPRISE PLANS
+For Business
+MOBILE
+Download on the App Store
+Get it on Google Play
+SUPPORT
+Help Center
+COURSE CATALOG
+Subjects
+Web Development
+Data Science
+Computer Science
+Developer Tools
+Machine Learning
+Code Foundations
+Web Design
+—
+Full Catalog
+Beta Content
+Roadmap
+Languages
+HTML & CSS
+Python
+JavaScript
+Java
+SQL
+Bash/Shell
+Ruby
+C++
+R
+C#
+PHP
+Go
+Swift
+Kotlin
+Privacy Policy
+Cookie Policy
+Do Not Sell My Personal Information
+Terms
+Made with️❤️in NYC © 2021 Codecademy

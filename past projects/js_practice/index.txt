@@ -1,0 +1,183 @@
+Skip to Content
+My Home
+Catalog
+
+Resources
+
+Community
+
+
+
+
+My Account menu toggle
+Learn JavaScript
+
+Overview
+
+Syllabus
+Course Progress
+Progress: 14%
+14%
+Trophy icon
+Reset Progress
+Course Description
+Learn the JavaScript fundamentals you’ll need for front-end or back-end development.
+
+Details
+Earn a certificate of completion
+20 hours to complete in total
+Beginner
+
+Learn about what the JavaScript course has in store!
+
+Info
+Welcome to Learn JavaScript
+66% progress
+66%
+In this course, you will learn about JavaScript data types, built-in methods, and variables.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Introduction to JavaScript
+Lesson
+Variables
+Project
+Kelvin Weather
+Project
+Dog Years
+Quiz
+Introduction to JavaScript
+Article
+JavaScript Versions: ES6 and Before
+Resume
+Learn how to use if, else if, else, switch, and ternary syntax to control the flow of a program in JavaScript.
+
+Lesson
+Conditional Statements
+Project
+Magic Eight Ball
+Project
+Race Day
+Quiz
+Conditional Statements Quiz
+Learn about JavaScript function syntax, passing data to functions, the return keyword, ES6 arrow functions, and concise body syntax.
+
+Lesson
+Functions
+Project
+Rock, Paper, or Scissors
+Project
+Sleep Debt Calculator
+Quiz
+Functions Quiz
+Learn about global and block level scope in JavaScript.
+
+Lesson
+Scope
+Project
+Training Days
+Quiz
+Scope Quiz
+In this course, you will learn about arrays, a data structure in JavaScript used to store lists of data.
+
+Lesson
+Arrays
+Project
+Secret Message
+Quiz
+Arrays Quiz
+In this course, you will learn how to use for and while loops to execute blocks of code multiple times.
+
+Lesson
+Loops
+Project
+Whale Talk
+Quiz
+Loops Quiz
+In this course, you will learn how to use iterator methods to simplify the process of looping over arrays.
+
+Lesson
+Higher-Order Functions
+Lesson
+Iterators
+Project
+Mini Linter
+Quiz
+Iterators Quiz
+Learn about JavaScript ES6 object syntax to model real-world items.
+
+Lesson
+Objects
+Lesson
+Advanced Objects
+Project
+Meal Maker
+Project
+Team Stats
+Quiz
+Objects
+You’ve completed the Learn JavaScript course! What’s next?
+
+Info
+Learn JavaScript: Next Steps
+COMPANY
+About
+Careers
+Affiliates
+RESOURCES
+Docs
+Cheatsheets
+Projects
+Articles
+Blog
+COMMUNITY
+Forums
+Chapters
+Events
+INDIVIDUAL PLANS
+Pro Membership
+For Students
+ENTERPRISE PLANS
+For Business
+MOBILE
+Download on the App Store
+Get it on Google Play
+SUPPORT
+Help Center
+COURSE CATALOG
+Subjects
+Web Development
+Data Science
+Computer Science
+Developer Tools
+Machine Learning
+Code Foundations
+Web Design
+—
+Full Catalog
+Beta Content
+Roadmap
+Languages
+HTML & CSS
+Python
+JavaScript
+Java
+SQL
+Bash/Shell
+Ruby
+C++
+R
+C#
+PHP
+Go
+Swift
+Kotlin
+Privacy Policy
+Cookie Policy
+Do Not Sell My Personal Information
+Terms
+Made with️❤️in NYC © 2021 Codecademy

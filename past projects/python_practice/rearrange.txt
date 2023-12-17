@@ -1,0 +1,44 @@
+[workflow]
+initial/input -> final/output
+
+[unchanged]
+YUKTI -> YUKTI
+
+[unchanged]
+ahiyantra.github.io -> ahiyantra.github.io
+
+[changed] [finished]
+ahiyantra (53.4 KiB & 692.0 KiB), python_practice (714.4 KiB & 1.7 MiB), Practical_Projects (3.8 MiB & 4.1 MiB) -> ahiyantra
+
+[changed] [finished]
+KHAKA (55.4 MiB & 57.3 MiB), git_practice (960.0 MiB [old] & 962.5 MiB [old] vs 6.9 MiB [new] & 7.4 MiB [new]) -> KHAKA
+
+[changed] [finished]
+yantraahi (287.4 MiB & 290.6 MiB), random_ideas (36.9 KiB & 360.0 KiB), niraakaara_sutra (37.3 KiB & 324.0 KiB) -> yantraahi
+
+[steps]
+$ cd /home/number5/ahiyantra/eaten-project
+$ mkdir eaten-project
+$ mv !(eaten-project) eaten-project
+$ git commit -a -m "preparation for moving"
+$ cd /home/number5/ahiyantra/eater-project
+$ git remote add temp /home/number5/ahiyantra/eaten-project
+$ git fetch temp
+$ git merge temp/master --allow-unrelated-histories
+> in order to get rid of unnecessary redundancy
+> ctrl+x
+> y
+> enter
+$ git remote rm temp
+git remote -v show temp
+$ cd /home/number5/ahiyantra/eaten-project
+$ rm -r eaten-project
+$ nano README.md
+> important notice: everything has been moved to "ahiyantra/eater-project"
+> ctrl+x
+> y
+> enter
+$ git add .
+$ git status
+$ git commit -m "last commit; important notice: everything has been moved to \'ahiyantra/eater-project\'"
+$ git push -u origin master

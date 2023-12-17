@@ -1,0 +1,26 @@
+Skip to Content
+My Home
+Path Menu
+Get Unstuck
+
+
+Avatar
+Colmar Academy Feedback
+Share your capstone project!
+
+Congratulations on completing this capstone project! Completing this project proves that you’ve mastered all of the knowledge from the path.
+
+Now that you have designed and implemented this project, consider presenting your design decisions to other learners in this path. You can share your design by deploying your site and providing the URL or sharing a GitHub repo.
+
+See the next informational for insturctions and a link to the forums where you can share your project.
+
+When presenting your thoughts it’s important to be specific with your explanations. While a design decision may feel right – “This color had the right feel” – there is usually more to the decision. Why did that color feel right? Was it easy to read? Did it contrast well with another color? What kind of color scheme did you use once you selected your first color? The more you can justify your decisions, the more trust your clients will put in your design and in you as a developer. Additionally, the more detailed information you provide, the more detailed feedback you will receive. Just as it is frustrating for a client to hear “the design felt right,” it is frustrating for a designer to hear “it doesn’t feel right, try again.” Neither statement is constructive, and the design process becomes a guessing game.
+
+Finally, it’s important to keep in mind that feedback is not a bad thing and doesn’t mean you did your job poorly. It’s simply impossible to read a client’s mind. You should always expect to get feedback to help you hone your work to better suit the needs of the client. After all, they’re the ones who will ultimately have to live with the work. If you receive feedback, find ways to match it against your thought process to make sure you come to a solution that both you and your client feel good about.
+
+With specific design decisions, presentation, and feedback, a healthy developer-client relationship can form. This relationship leads to a better final product and potential future work. Leverage your discussions with your peers on this project as practice presenting ideas, providing feedback, and incorporating input.
+
+Good luck!
+
+Back
+Next

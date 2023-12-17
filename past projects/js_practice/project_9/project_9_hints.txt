@@ -1,0 +1,173 @@
+Skip to Content
+My Home
+Path Menu
+Get Unstuck
+Tools
+
+
+
+Avatar
+Learn JavaScript Syntax: Loops: Whale TalkBrief
+Objective
+JAVASCRIPT SYNTAX, PART II
+Whale Talk
+Take a phrase like ‘turpentine and turtles’ and translate it into its “whale talk” equivalent: ‘UUEEIEEAUUEE’.
+
+There are a few simple rules for translating text to whale language:
+
+There are no consonants. Only vowels excluding “y”.
+The u‘s and e‘s are extra long, so we must double them in our program.
+Once we have converted text to the whale language, the result is sung slowly, as is a custom in the ocean.
+
+To accomplish this translation, we can use our knowledge of loops. Let’s get started!
+
+If you get stuck during this project or would like to see an experienced developer work through it, click “Get Unstuck“ to see a project walkthrough video.
+
+Tasks
+13/13 Complete
+Mark the tasks as complete by checking them off
+1.
+Create a variable named input that is equal to any phrase you’d like. This variable will contain the text you want to translate into “whale talk”.
+
+
+Hint
+Try a string like:
+
+let input = 'turpentine and turtles';
+2.
+Whales only speak in vowels so you need an array of vowels to be extracted from the input variable. Set the array equal to a variable named vowels that will not be updated.
+
+Note: Whales don’t consider “y” a vowel.
+
+
+Hint
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+3.
+Create a variable named resultArray and set it equal to an empty array: []. This will serve as a place to store the vowels from the input string.
+
+4.
+Create a loop to iterate through each letter of the input variable text. In a later step, we will compare each letter with our vowels array.
+
+
+Hint
+You can create this logic with a for loop.
+
+5.
+To check your work, log the iterator numbered position inside the for loop and run your code. This should count the number of characters in your input string.
+
+Comment out this code when you’re ready to move on.
+
+
+Hint
+For example, if input is 22 characters long, you should
+
+console.log('i is '+ i);
+to log this to the console:
+
+i is 0
+i is 1
+.
+.
+.
+i is 21
+6.
+Create a nested for loop inside of the for loop you just wrote. Make the inner loop iterate through the vowels array each time the outer loop runs.
+
+This will enable you to check each letter of input against all the vowels elements during each iteration.
+
+
+Hint
+Remember, the inner for loop and outer for loop should have different iterator variables. The syntax for a nested for loop is:
+
+for (let i = 0; i < input.length; i++) {
+  ...
+  for (let j = 0; j < vowels.length; j++) {
+    ... 
+  }
+}
+7.
+To check your work, log the iterator number positions inside the inner for loop and run your code. You should see 0 through 4 repeatedly because vowels is 5 elements long.
+
+
+Hint
+For example, you should
+
+console.log('j is '+ j);
+to log this to the console:
+
+j is 0
+j is 1
+j is 2
+j is 3
+j is 4
+j is 0
+j is 1
+j is 2
+.
+.
+.
+8.
+Inside the second for loop, write a code block that compares the input letter to every letter in the vowels array.
+
+
+Hint
+Use the .push() method to add matching letters to the array that stores the results. To single out letters from a string use stringName[i] and compare it to the array.
+
+stringName[i] works just like accessing an element within an array. That’s because JavaScript internally stores every character in a string at a numbered position.
+
+9.
+Whales double their e‘s and the u‘s in their language.
+
+Write an if statement that checks if each letter in the input string is equal to 'e'. If so, .push() input[i] to the resultArray.
+
+Note, this statement belongs after the inner for loop block inside the outer for loop. This is because you only want to perform this check once for every letter in the input.
+
+
+Hint
+To push the e‘s a second time create a conditional like this:
+
+if (stringName[i] === 'e'){
+  myArray.push(stringName[i]);
+}
+10.
+Next, you want to double the letter u, so you must mimic the code from the last step. Re-create the if statement, but modify it so it pushes the letter u a second time.
+
+
+Hint
+You can also use the || operator to check for multiple conditions in an if statement like so:
+
+if (stringName[i] === 'e' || stringName[i] === 'u') {
+  myArray.push(stringName[i]);
+};
+11.
+At the bottom of the program, log resultArray to the console.
+
+12.
+Notice when we log the array, the output has commas between each letter. To produce proper whale language, we want to capitalize the array elements and put them together as one string.
+
+
+Hint
+Make sure you do the following:
+
+Use .join() method make a continuous string with '' as an argument (or, single quotations with no space) so the elements aren’t separated.
+Use the .toUpperCase() function, to make the string uppercase.
+Note, methods can chained together like:
+console.log(myArray.join('').toUpperCase());
+13.
+Run the program and sing the output out loud — you officially speak whale!
+
+To confirm, if you change the value of input to ‘turpentine and turtles’, the whale version would read: 'UUEEIEEAUUEE'.
+
+Try other tests like 'Hi, Human' (to get IUUA) or 'a whale of a deal!' (to get 'AAEEOAEEA').
+
+Code Editor
+12345678910111213141516171819202122232425
+
+
+Output-only Terminal
+Output:
+
+ 
+13/13 Complete
+Back
+Next

@@ -1,0 +1,290 @@
+Skip to Content
+My Home
+Catalog
+
+Resources
+
+Community
+
+
+
+
+My Account menu toggle
+Learn Python 3pro-logo
+
+Overview
+
+Syllabus
+Course Progress
+Progress: 93%
+93%
+Trophy icon
+Reset Progress
+Course Description
+Learn the latest and greatest version of the most popular programming language in the world!
+
+Details
+Certificate of Completion · View
+25 hours to complete in total
+Beginner
+
+Get started with Python syntax in this lesson and then create a point of sale system for a furniture store!
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Hello World
+Quiz
+Hello World
+Project
+Block Letters
+Project
+Receipts for Lovely Loveseats
+Article
+User Input
+Learn how to build control flow into your python code by including if, else, and elif statements as well as try and except statements. Expect to learn all you need to know about boolean variables and logical operators.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Control Flow
+Quiz
+Control Flow
+Project
+Magic 8-Ball
+Project
+Sal's Shipping
+Lesson
+Errors in Python
+Learn about lists, a data structure in Python used to store ordered groups of data.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Introduction to Lists
+Quiz
+Introduction to Lists
+Project
+Gradebook
+Lesson
+Working with Lists in Python
+Quiz
+Working with Lists in Python
+Project
+Len's Slice
+Video
+Learn Python: Tuples
+Article
+Combining Lists: The Zip Function
+Loops are structures that let you repeat Python code over and over. Learn how to read loops and write them to solve your own problems.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Loops
+Quiz
+Loops
+Project
+Carly's Clippers
+Learn about code reuse with Python functions. Apply that knowledge to create functions for famous physics formulas.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Introduction to Functions
+Quiz
+Introduction to Functions
+Project
+Getting Ready for Physics Class
+Info
+Off-Platform Project: Reggie's Linear Regression
+Optional code challenge to test your Python knowledge!
+
+Cheatsheet
+
+Article
+Python Code Challenges: Control Flow
+Article
+Python Code Challenges: Control Flow (Advanced)
+Article
+Python Code Challenges: Lists
+Article
+Python Code Challenges: Lists (Advanced)
+Article
+Python Code Challenges: Loops
+Article
+Python Code Challenges: Loops (Advanced)
+Article
+Python Code Challenges: Functions
+Article
+Python Code Challenges: Functions (Advanced)
+Learn all about the Python string object. Figure out how to automatically create, rearrange, reassign, disassemble, and reassemble blocks of text!
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Introduction to Strings
+Quiz
+Introduction to Strings
+Lesson
+String Methods
+Quiz
+String Methods
+Project
+Thread Shed
+Info
+Off-Platform Project: Coded Correspondence
+Learn how modules work in the Python programming language.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Modules in Python
+Video
+Learn Python: Datetimes
+Article
+Learn Python: pipenv
+Learn all about the Python dictionary structure and how to create and use key-value pairs in your code.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Creating Dictionaries
+Quiz
+Creating Dictionaries
+Lesson
+Using Dictionaries
+Project
+Scrabble
+Quiz
+Using Dictionaries
+Info
+Off-Platform Project: Abruptly Goblins
+Learn how to work with files in an automated way! Investigate the properties of text, CSV, and JSON files by reading and writing to them!
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Learn Python: Files
+Quiz
+Python Files
+Project
+Hacking The Fender
+Learn about the differences between data types in Python and how to create your own classes, objects, and interfaces.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Introduction to Classes
+Quiz
+Introduction to Classes
+Project
+Basta Fazoolin'
+33% progress
+33%
+Optional code challenge to test your Python knowledge!
+
+Article
+Python Code Challenges: Strings
+Article
+Python Code Challenges: Strings (Advanced)
+Article
+Python Code Challenges: Dictionaries
+Article
+Python Code Challenges: Dictionaries (Advanced)
+Article
+Python Code Challenges: Classes
+Article
+Python Code Challenges: Classes (Advanced)
+Resume
+You’ve completed the Learn Python 3 course! What’s next?
+
+Article
+Next Steps
+COMPANY
+About
+Careers
+Affiliates
+RESOURCES
+Docs
+Cheatsheets
+Projects
+Articles
+Blog
+COMMUNITY
+Forums
+Chapters
+Events
+INDIVIDUAL PLANS
+Pro Membership
+For Students
+ENTERPRISE PLANS
+For Business
+MOBILE
+Download on the App Store
+Get it on Google Play
+SUPPORT
+Help Center
+COURSE CATALOG
+Subjects
+Web Development
+Data Science
+Computer Science
+Developer Tools
+Machine Learning
+Code Foundations
+Web Design
+—
+Full Catalog
+Beta Content
+Roadmap
+Languages
+HTML & CSS
+Python
+JavaScript
+Java
+SQL
+Bash/Shell
+Ruby
+C++
+R
+C#
+PHP
+Go
+Swift
+Kotlin
+Privacy Policy
+Cookie Policy
+Do Not Sell My Personal Information
+Terms
+Made with️❤️in NYC © 2021 Codecademy

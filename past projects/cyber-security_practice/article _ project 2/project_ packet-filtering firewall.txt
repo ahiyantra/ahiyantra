@@ -1,0 +1,211 @@
+Skip to Content
+
+Avatar
+Project: Packet-Filtering Firewall
+In this project, we will learn how to create some basic firewall rules.
+
+Now that we understand a bit about firewalls, let’s explore this hands-on project to familiarize ourselves with basic firewall syntax.
+
+The objective of this project is to configure the most basic firewall: a packet filtering firewall. The rest of this article will be a project walk-through!
+
+Project Setup
+In this scenario, we are operating as a firewall administrator for an unnamed organization. Our network contains the following IP addresses corresponding to different protocol servers:
+
+10.10.10.8 – Web (HTTP) Server
+
+10.10.10.16 – DNS Server
+
+10.10.10.32 – SMB (File) Server
+
+Project Syntax
+This simulation comes with its own way of specifying an ACL (Access Control List). For each rule, there are parameters.
+
+Action
+The first is Action. There are two options for each packet:
+
+FORWARD means to allow a packet past the firewall
+DROP means to block a packet from reaching its destination
+Source and Destination IP
+The other parameters include source and destination IP’s. To specify a wildcard value, or a value that matches all possible ranges of numbers, we use the x character. For example:
+
+If we wanted to allow all IPs we could say x.x.x.x
+If we wanted to only allow the devices on the 10.10.10.0 network from 10.10.10.0 to 10.10.10.255, we could use 10.10.10.x
+Port and Protocol
+As for the port and protocol, those refer to TCP and UDP protocols and port numbers on those implementations. Here are some helpful details:
+
+Network Protocol	TCP/UDP	Port
+HTTP	TCP	80
+DNS	UDP	53
+SMB	TCP/UDP	445
+Putting it Together
+The following rule would FORWARD all traffic from any source IP across all ports to all devices on the 10.10.10.0 IP range.
+
+Action	Source IP	Protocol	Port	Destination IP
+FORWARD	x.x.x.x	both	x	10.10.10.x
+Project Objectives
+We must satisfy the following rules:
+
+The file server is used for storage of important documents and should not be accessible to external IP addresses.
+
+The web server hosts the organization’s website, which must be accessible to all IP addresses.
+
+The DNS server provides name resolution for the organization’s domain, which must be available to all IP addresses.
+
+IP addresses 7.7.7.7 and 8.8.8.8 are prohibited from accessing any host on your network due to suspected hacking activity (this overrides any other rule).
+
+Take a minute here to try to translate the following to a set of access control list terms (actions like forward and drop for source IP and destination IP).
+
+Walkthrough of Putting In Rules
+When dealing with packet-filtering firewalls, it’s important to remember that a firewall will act in the order of the rules. So if we have multiple rules, it will act on the first matching rule. It’s best to start with the deny rules, and then move to the forwarding rules!
+
+If we look at the objectives, it seems like the strictest rule is the one that should drop any packets coming from IP addresses 7.7.7.7 and 8.8.8.8. Let’s start with the access control rule for those.
+
+Rule: IP addresses 7.7.7.7 and 8.8.8.8 are prohibited from accessing any host on your network
+Translating this into firewall syntax, we get:
+
+IP’s 7.7.7.7 and 8.8.8.8 should not have access to ANY devices, so we should DROP all packets from that incoming IP.
+Let’s create a new DROP rule. We should set the “Source IP” to 7.7.7.7. Following this, we want to ensure all connections, meaning both TCP and UDP are blocked. As such, we’ll set protocol to both and the port number to x as we don’t want to allow any requests, regardless of the port. Finally, we’ll specify our destination for the rule as 10.10.10.x.
+
+Our rule for packets coming from 7.7.7.7 to 10.10.10.x should look like this:
+
+Action	Source IP	Protocol	Port	Destination IP
+DROP	7.7.7.7	both	x	10.10.10.x
+Recreate the rule to DROP all packets going from 7.7.7.7 to 10.10.10.x:
+
+    Action       Source IP      Protocol        Port       Destination IP  
+          
+ 
+  
+x.x.x.x
+DROP
+10.10.10.8
+udp
+7.7.7.7
+x
+FORWARD
+both
+10.10.10.x
+Click or drag and drop to fill in the blank
+
+Now, create the rule to DROP all packets coming from 8.8.8.8. This rule should be similar to the previous rule you just created.
+
+Create the rule to DROP all packets coming from 8.8.8.8:
+
+    Action       Source IP      Protocol        Port       Destination IP  
+          
+both
+10.10.10.x
+tcp
+x
+53
+DROP
+8.8.8.8
+x.x.x.x
+FORWARD
+Click or drag and drop to fill in the blank
+
+Rule: The file server should not be accessible to external IP addresses
+We also need to add a firewall rule protecting the SMB server.
+
+Translating this into firewall syntax, we get:
+
+We should DROP all packets going to the SMB file server (10.10.10.32).
+Starting with the source IP, we want ensure that packets from any source IP are dropped. We can use the wildcard sequence x.x.x.x. Since this is a drop rule, we can actually use the wildcard on the protocol and ort as well. The destination IP is the IP of the SMB server.
+
+DROP all packets going to the SMB file server (10.10.10.32):
+
+    Action       Source IP      Protocol        Port      Destination IP  
+          
+FORWARD
+80
+10.10.10.32
+x
+DROP
+both
+x.x.x.x
+x.x.x.x
+10.10.10.x
+Click or drag and drop to fill in the blank
+
+Rule: The DNS server must be available to all IP addresses
+With the SMB server protected, let’s move to our DNS and HTTP server. Let’s start by creating a rule for the DNS server, which provides the domain name service to all external devices, so it’s important for packets to be forwarded.
+
+Translating this into firewall syntax, we get:
+
+The DNS Server (10.10.10.16) should be accessible to all IP addresses, so we forward all packets to that IP.
+Given we know the Destination IP (10.10.10.16), and the source IP is all (x.x.x.x), all we need is the protocol and port sections. DNS operates on port 53 using UDP.
+
+Make the DNS Server (10.10.10.16) accessible to all IP addresses:
+
+    Action       Source IP      Protocol        Port       Destination IP  
+          
+53
+x.x.x.x
+DROP
+both
+FORWARD
+10.10.10.16
+x
+udp
+10.10.10.x
+Click or drag and drop to fill in the blank
+
+Rule: The web server must be accessible to all IP addresses
+Now, create the HTTP rule using the same idea.
+
+Translating this into firewall syntax, we get:
+
+The Web Server (10.10.10.8) should be accessible to all IP addresses, so we forward all packets to that IP.
+Make the Web Server (10.10.10.8) accessible to all IP addresses:
+
+    Action       Source IP      Protocol        Port       Destination IP  
+         
+x
+10.10.10.8
+tcp
+80
+DROP
+x.x.x.x
+10.10.10.x
+FORWARD
+udp
+Click or drag and drop to fill in the blank
+
+Rule: Preventing any other non-approved network activity
+To cap everything off, we need one last rule to prevent any other non-approved network activity. This will make sure all the forward rules happen, but nothing else is forwarded. To do this, we’ll add a final rule.
+
+Translating this into firewall syntax, we get:
+
+DROP all traffic destined for any host on the 10.10.10.0 network.
+DROP all traffic destined for any host on the 10.10.10.0 network:
+
+    Action       Source IP      Protocol        Port       Destination IP  
+          
+50
+10.10.10.x
+10.10.10.0
+both
+FORWARD
+udp
+x.x.x.x
+DROP
+x
+Click or drag and drop to fill in the blank
+
+Solution
+Once complete, your rules should appear similar to this:
+
+Action	Source IP	Protocol	Port	Destination IP
+DROP	7.7.7.7	both	x	10.10.10.x
+DROP	8.8.8.8	both	x	10.10.10.x
+DROP	x.x.x.x	both	x	10.10.10.32
+FORWARD	x.x.x.x	udp	53	10.10.10.16
+FORWARD	x.x.x.x	tcp	80	10.10.10.8
+DROP	x.x.x.x	both	x	10.10.10.x
+If you didn’t get all these solutions, go back and try again!
+
+Conclusion
+Through this lab, we saw how a packet filtering firewall can be used to protect your network. In many ways, this lab followed several best practices including restricting access to unnecessary services. By leveraging firewalls, we can help protect our environments and prevent attacks from coming through the network!
+
+Back
+Next

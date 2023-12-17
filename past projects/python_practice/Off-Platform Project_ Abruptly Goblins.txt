@@ -1,0 +1,16 @@
+Off-Platform Project: Abruptly Goblins
+In this off-platform project you will be the proprietor of a comic and games store, the Sorcery Society, and you decide to host a game night to play the hot new tabletop RPG Abruptly Goblins! You’ll be writing your own Python functions and using dictionaries to provide a new service to gaming attendees of your shop.
+
+Your beloved clientele want to organize a game night at your comics store! Create a system for organizing and tracking gamer’s availability. Programmatically figure out the best day to host a game night and send out emails to your attendees to let them know when to come. Follow the steps below to get started with your project!
+
+Working on Your Computer
+If you’ve never used the command line, we recommend taking the Learn the Command Line course.
+Install Python by following the directions in this article on Installing Python.
+Learn about Jupyter Notebooks, a cool way of combining Python code with explanations or instruction in a web terminal.
+Download the Abruptly Goblins project.
+Unzip it by double-clicking on it.
+In the terminal, navigate to the directory containing the project, and type:
+jupyter notebook
+This should open a browser tab.
+Click on Abruptly Goblins Planner.ipynb in the browser tab. This will open up your Jupyter Notebook.
+Follow the steps in the Jupyter Notebook. If you get stuck, you can look at Abruptly Goblins Planner (Solution).ipynb for the answer.

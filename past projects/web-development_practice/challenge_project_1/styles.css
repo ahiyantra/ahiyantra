@@ -1,0 +1,37 @@
+body {
+  font-family: Verdana;
+  background-color: AliceBlue;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: CornflowerBlue;
+}
+
+h2 {
+  color: DodgerBlue;
+}
+
+thead {
+  background-color: LightSkyBlue;
+  height: 50px;
+}
+
+td {
+  border-top: 1px solid DarkTurquoise;
+}
+
+table {
+  border: 1px solid DarkCyan;
+  height: 200px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.code {
+  font-family: Courier, monospace;
+  background-color: Azure;
+}

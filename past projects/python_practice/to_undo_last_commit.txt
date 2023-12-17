@@ -1,0 +1,7 @@
+git reset --soft HEAD~1
+
+When specifying the “–soft” option, Git is instructed not to modify the files in the working directory or in the index at all.
+
+git reset --hard HEAD~1
+
+Be careful when using “–hard” : changes will be removed from the working directory and from the index, you will lose all modifications.

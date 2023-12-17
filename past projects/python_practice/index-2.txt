@@ -1,0 +1,191 @@
+Skip to Content
+My Home
+Catalog
+
+Resources
+
+Community
+
+
+
+
+My Account menu toggle
+Learn Intermediate Python 3pro-logo
+Resume
+
+Overview
+
+Syllabus
+Course Progress
+Progress: 10%
+10%
+Trophy icon
+Reset Progress
+Course Description
+Dive deeper into one of the world’s most popular programming languages.
+
+Details
+Earn a certificate of completion
+15 hours to complete in total
+Intermediate
+
+Learn about what is new in the Intermediate Python 3 course!
+
+Info
+Introduction to Intermediate Python
+50% progress
+50%
+Use the full potential of Python function arguments! Learn about the different ways to work with the Python unpacking operator.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Article
+Python Gotcha: Mutable Default Arguments
+Lesson
+Function Arguments
+Quiz
+Function Arguments
+Project
+The Nile
+Resume
+Learn about how Python stores names and the scoping rules that apply to them!
+
+Lesson
+Namespaces
+Quiz
+Namespaces
+Lesson
+Scope
+Quiz
+Scope
+25% progress
+25%
+Dive deeper into the unique ways to utilize functions to create cleaner and more efficient software!
+
+Article
+Lambda Functions
+Article
+Introduction to Higher-Order Functions
+Article
+Built-In Higher-Order Functions
+Video
+Decorators
+Learn to utilize one of the most popular programming paradigms - Object-Oriented Programming!
+
+Video
+Why Object-Oriented Programming?
+Lesson
+Object-Oriented Programming
+Quiz
+Object-Oriented Programming
+Project
+School Catalogue
+Article
+The @property Decorator
+Learn to maintain a healthy codebase by creating unit tests using Python’s built-in unittest framework!
+
+Lesson
+Exceptions
+Quiz
+Exceptions
+Lesson
+Unit Testing
+Quiz
+Unit Testing
+Project
+Sam's Surf Shop
+Take a peek under the hood of how Python uses Iterators!
+
+Lesson
+Iterables & Iterators
+Quiz
+Iterables & Iterators
+Project
+New Teacher in Town
+Lesson
+Generators
+Quiz
+Generators
+Project
+Event Coordinator
+Use specialized Python collections to create more efficient programs!
+
+Lesson
+Sets
+Quiz
+Sets
+Lesson
+Collections
+Quiz
+Collections
+Project
+The Great Robot Race
+Learn to harness the power of context managers in Python!
+
+Lesson
+Context Managers
+Quiz
+Context Managers
+Project
+Aisha's Greetings
+COMPANY
+About
+Careers
+Affiliates
+RESOURCES
+Docs
+Cheatsheets
+Projects
+Articles
+Blog
+COMMUNITY
+Forums
+Chapters
+Events
+Learner Stories
+INDIVIDUAL PLANS
+Pro Membership
+For Students
+ENTERPRISE PLANS
+For Business
+MOBILE
+Download on the App Store
+Get it on Google Play
+SUPPORT
+Help Center
+COURSE CATALOG
+Subjects
+Web Development
+Data Science
+Computer Science
+Developer Tools
+Machine Learning
+Code Foundations
+Web Design
+—
+Full Catalog
+Beta Content
+Roadmap
+Languages
+HTML & CSS
+Python
+JavaScript
+Java
+SQL
+Bash/Shell
+Ruby
+C++
+R
+C#
+PHP
+Go
+Swift
+Kotlin
+Privacy Policy
+Cookie Policy
+Do Not Sell My Personal Information
+Terms
+Made with️❤️in NYC © 2021 Codecademy

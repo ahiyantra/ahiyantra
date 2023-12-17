@@ -1,0 +1,172 @@
+Skip to Content
+My Home
+Catalog
+
+Resources
+
+Community
+
+
+
+
+My Account menu toggle
+Learn Intermediate CSS
+
+Overview
+
+Syllabus
+Course Progress
+Progress: 25%
+25%
+Trophy icon
+Reset Progress
+Course Description
+Learn how to implement elegant transitions, create new layouts and serve users with dynamic needs.
+
+Details
+Earn a certificate of completion
+15 hours to complete in total
+Intermediate
+
+50% progress
+50%
+Learn CSS Flexbox to create flexible page layouts.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Flexbox
+Project
+Flexbox: To-Do App
+Project
+Off-Platform Project: Tea Cozy
+Quiz
+Flexbox
+Resume
+In this course, you will master a technology that was recently added to CSS! This is a long-awaited improvement to laying-out and positioning elements on web pages.
+
+Lesson
+Grid Essentials
+Project
+PupSpa
+Quiz
+Grid
+Lesson
+Advanced CSS Grid
+Project
+CSS Grid: Task Board
+Quiz
+Grid
+Implement CSS animation using transitions
+
+Lesson
+CSS Transitions
+Project
+Transitions - 20,000 Leagues Under the Sea
+Quiz
+Transitions Quiz
+Learn responsive design techniques, like relative sizing units and media queries, to create websites viewable on devices of all sizes.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Sizing Elements
+Lesson
+Media Queries
+Project
+Tsunami Coffee
+Quiz
+Sizing Elements
+Quiz
+Media Queries Quiz
+Learn how to use CSS variables and functions to create more organized, efficient, and dynamic websites.
+
+Lesson
+CSS Variables
+Lesson
+CSS Functions
+Project
+Curious Ornithologist
+Quiz
+Variables and Functions
+Learn how to build web pages that are accessible to everyone using modern CSS techniques and accessibility standards.
+
+Lesson
+Accessibility
+Tutorial
+Start Testing for Web Accessibility
+Project
+Code! Blog
+Quiz
+Accessibility
+Learn about browser compatibility and the different techniques to create a consistent user experience regardless of the browser.
+
+Lesson
+Browser Compatibility
+Article
+CSS Feature Queries
+Quiz
+Browser Compatibility
+COMPANY
+About
+Careers
+Affiliates
+RESOURCES
+Docs
+Cheatsheets
+Projects
+Articles
+Blog
+COMMUNITY
+Forums
+Chapters
+Events
+INDIVIDUAL PLANS
+Pro Membership
+For Students
+ENTERPRISE PLANS
+For Business
+MOBILE
+Download on the App Store
+Get it on Google Play
+SUPPORT
+Help Center
+COURSE CATALOG
+Subjects
+Web Development
+Data Science
+Computer Science
+Developer Tools
+Machine Learning
+Code Foundations
+Web Design
+—
+Full Catalog
+Beta Content
+Roadmap
+Languages
+HTML & CSS
+Python
+JavaScript
+Java
+SQL
+Bash/Shell
+Ruby
+C++
+R
+C#
+PHP
+Go
+Swift
+Kotlin
+Privacy Policy
+Cookie Policy
+Do Not Sell My Personal Information
+Terms
+Made with️❤️in NYC © 2021 Codecademy

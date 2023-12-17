@@ -1,0 +1,19 @@
+
+
+            ___________
+           /           \
+          /             \
+         |   ===   ===   |
+        C|    O     O    |C
+         |               |
+         |               |
+          \        >    /
+           |           |
+           | MMMMMMMMM |
+           |   -----   |
+            \  MMMMM  /
+             \__MMM__/
+                MMM
+
+November 12, 2014 CE
+L. Da Vinci

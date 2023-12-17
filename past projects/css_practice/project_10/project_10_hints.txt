@@ -1,0 +1,89 @@
+Skip to Content
+My Home
+Course Menu
+Get Unstuck
+Tools
+
+
+
+Avatar
+Learn Intermediate CSS: Transitions - 20,000 Leagues Under the SeaBrief
+Objective
+LEARN INTERMEDIATE CSS
+Transitions - 20,000 Leagues Under the Sea
+In this project you will follow step-by-step instructions to add animations to an existing static web page. The web page is an online reader; it presents the full text of the book “20,000 Leagues Under the Sea” by Jules Verne.
+
+The page for the first chapter is mostly complete. There are a few fancy features:
+
+When you hover over the sidebar on the left, a menu opens which contains the Table of Contents.
+When you hover over a highlighted word in the text, a definition appears. See the words “phosphorescent” and “locomotion”.
+When you hover over the semi-transparent buttons at the bottom of the page, they turn opaque.
+When you hover over any link, it changes color.
+These interactions add a level of refinement to an otherwise static page. Your job will be to refine them even more. Currently, all these changes happen in an instant. Add transitions to make the changes smooth.
+
+The website’s existing index.html and style.css files are displayed in the text editor.
+
+If you get stuck during this project or would like to see an experienced developer work through it, click “Get Unstuck“ to see a project walkthrough video.
+
+Tasks
+5/5 Complete
+Mark the tasks as complete by checking them off
+1.
+In style.css, find the ruleset for links inside the sidebar (nav a). Add a CSS declaration to transition the text color. Experiment with different values for duration, timing function, and delay until you are satisfied.
+
+
+Hint
+Add a shorthand ‘transition’ property starting with a value of color, followed by any values you choose for duration, timing function, and delay.
+
+Duration and delay values can be specified using seconds or milliseconds, and examples of a timing functions are ease and linear!
+
+2.
+Next, you’ll animate the “Next” and “Back” buttons’ transparency.
+
+Find the .button ruleset. Add a declaration to transition the property opacity. Again, the choice for the other values is yours. Pick values for duration, timing function, and delay that feel good to you.
+
+
+Hint
+Add a shorthand ‘transition’ property starting with a value of opacity, followed by any values you choose for duration, timing function, and delay.
+
+3.
+Now make the sidebar slide out instead of instantly appearing. Add a declaration to the nav ruleset to transition the left property. Experiment with the other transition properties.
+
+
+Hint
+Add a shorthand ‘transition’ property just like in the previous steps. You’ve got this!
+
+You can use ctrl+f (Windows) or cmnd+f (Mac) in the workspace to do a quick search for the ruleset!
+
+4.
+Find the selector .definable .word which selects the words that have definitions. Add a transition for the text color.
+
+
+Hint
+Add a shorthand transition property with the color value followed by any values you choose for duration, timing function, and delay.
+
+5.
+Finally, we’ll make the definition block fall down from the top of the page and fade in. The selector for this section is .definable .definition-container. Add a declaration to transition the top property. Use a comma (,) to transition a second property, opacity.
+
+
+Hint
+Use the shorthand transition property with a value of top, followed by any values you choose for duration, timing function, and delay. Then, in the same declaration, add the `opacity value, and values for duration, timing function, and delay.
+
+Code Editor
+files
+resources
+css
+reset.css
+style.css
+images
+left_arrow.svg
+nav_background.png
+right_arrow.svg
+triangle.png
+index.html
+Code Editor
+Web Browser
+https://localhost/
+
+5/5 Complete
+Back

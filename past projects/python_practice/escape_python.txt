@@ -1,0 +1,32 @@
+List of Python's escape sequence characters with examples
+
+admin Programming & Scripting 16 October 2018
+
+The table below contains a list of Python Escape sequence characters and relevant examples. You can run all of the examples below from the python prompt.
+Example:
+$ python
+Python 2.7.5 (default, Jun 24 2015, 00:41:19) 
+[GCC 4.8.3 20140911 (Red Hat 4.8.3-9)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print u"\u041b"
+Л
+Escape Sequence	Description	Example	Output
+\\	Prints Backslash	print "\\"	\
+\'	Prints single-quote	print "\'"	'
+\"	Pirnts double quote	print "\""	"
+\a	ASCII bell makes ringing the bell alert sounds ( eg. xterm )	print "\a"	N/A
+\b	ASCII backspace ( BS ) removes previous character	print "ab" + "\b" + "c"	ac
+\f	ASCII formfeed ( FF )	print "hello\fworld"	hello
+         world
+\n	ASCII linefeed ( LF )	print "hello\nworld"	hello
+world
+\N{name}	Prints a character from the Unicode database	print u"\N{DAGGER}"	†
+\r	ASCII carriage return (CR). Moves all characters after ( CR ) the the beginning of the line while overriding same number of characters moved.	print "123456\rXX_XX"	XX_XX6
+\t	ASCII horizontal tab (TAB). Prints TAB	print "\t* hello"	    * hello
+\t	ASCII vertical tab (VT).	N/A	N/A
+\uxxxx	Prints 16-bit hex value Unicode character	print u"\u041b"	Л
+\Uxxxxxxxx	Prints 32-bit hex value Unicode character	print u"\U000001a9"	Ʃ
+\ooo	Prints character based on its octal value	print "\043"	#
+\xhh	Prints character based on its hex value	print "\x23"	#
+
+https://linuxconfig.org/list-of-python-escape-sequence-characters-with-examples

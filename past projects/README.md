@@ -1,0 +1,2 @@
+# an archive of S.S.W.(ahiyantra)'s old programming practice projects, from some of codecademy's online courses, made during 2020~2021 CE
+an archive of S.S.W.(ahiyantra)'s old programming practice projects, from some of codecademy's online courses, made during 2020~2021 CE

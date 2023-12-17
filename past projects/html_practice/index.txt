@@ -1,0 +1,146 @@
+Skip to Content
+My Home
+Catalog
+
+Resources
+
+Community
+
+
+
+
+My Account menu toggle
+Learn HTML
+
+Overview
+
+Syllabus
+Course Progress
+Progress: 100%
+100%
+Trophy icon
+Reset Progress
+Course Description
+Learn the basics of HTML5 and start building & editing web pages.
+
+Details
+Certificate of Completion · View
+9 hours to complete in total
+Beginner
+
+Learn about HTML elements and structure, the building blocks of websites.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Introduction to HTML
+Quiz
+Introduction to HTML
+Lesson
+HTML Document Standards
+Quiz
+HTML Document Standards
+Project
+Fashion Blog
+Resume
+Learn all the syntax you need to create tables in your HTML documents.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+HTML Tables
+Quiz
+HTML Tables
+Project
+Wine Festival Schedule
+Take this course and learn about the inner workings of an HTML form! Learn how to create your own form and integrate HTML5 validations.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+HTML Forms
+Lesson
+Form Validation
+Quiz
+HTML Forms
+Project
+Form a Story
+Write clearer, more accessible HTML using Semantic HTML tags.
+
+Cheatsheet
+
+|
+Practice Pack
+
+Lesson
+Semantic HTML
+Quiz
+Semantic HTML
+Project
+New York City Blog
+COMPANY
+About
+Careers
+Affiliates
+RESOURCES
+Docs
+Cheatsheets
+Projects
+Articles
+Blog
+COMMUNITY
+Forums
+Chapters
+Events
+INDIVIDUAL PLANS
+Pro Membership
+For Students
+ENTERPRISE PLANS
+For Business
+MOBILE
+Download on the App Store
+Get it on Google Play
+SUPPORT
+Help Center
+COURSE CATALOG
+Subjects
+Web Development
+Data Science
+Computer Science
+Developer Tools
+Machine Learning
+Code Foundations
+Web Design
+—
+Full Catalog
+Beta Content
+Roadmap
+Languages
+HTML & CSS
+Python
+JavaScript
+Java
+SQL
+Bash/Shell
+Ruby
+C++
+R
+C#
+PHP
+Go
+Swift
+Kotlin
+Privacy Policy
+Cookie Policy
+Do Not Sell My Personal Information
+Terms
+Made with️❤️in NYC © 2021 Codecademy

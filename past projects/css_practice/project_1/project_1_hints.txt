@@ -1,0 +1,131 @@
+Skip to Content
+
+
+Avatar
+Learn CSS: Healthy RecipesBrief
+Objective
+LEARN CSS
+Healthy Recipes
+Using CSS selectors, you’ll give a recipe website some new style!
+
+If you get stuck during this project or would like to see an experienced developer work through it, click “Get Unstuck“ to see a project walkthrough video.
+
+Tasks
+7/7 Complete
+Mark the tasks as complete by checking them off
+1.
+Before you begin, take a look at the site’s structure in index.html.
+
+Start by making the image at the top of the page a little smaller. Navigate to style.css and write a CSS selector for the img tag.
+
+Within its curly braces, write:
+
+height: 150px;
+Try experimenting with the 150 number and observing the results.
+
+
+Hint
+To select the img tag, use the following selector:
+
+img {
+ 
+}
+2.
+The font size of the recipe description should be larger. In style.css, write a CSS selector for the .description class.
+
+Within its curly braces, add the following CSS:
+
+font-size: 20px;
+
+Hint
+To select a class named main, the syntax would be:
+
+.main {
+ 
+}
+3.
+Next, let’s style the cooking time. The element on line 15 of index.html has an id attribute of cook-time. Navigate to style.css and add a cook-time ID selector.
+
+Inside of its curly braces, write:
+
+font-weight: bold;
+
+Hint
+The syntax for an ID selector uses a # before the ID name:
+
+#element-id {
+ 
+}
+4.
+Now, let’s change the bullet points of the ingredient list to squares instead of circles. Start by writing a selector for the li elements inside of the .ingredients element.
+
+Then, write this inside of its curly braces:
+
+list-style: square;
+
+Hint
+To select elements within a parent element, use a space between the selectors.
+
+Be sure to put the outside parent element before the child element:
+
+parent-element child-element {
+ 
+}
+5.
+Next let’s make the time for each preparation step appear gray. In style.css, write a selector for p elements that also have a class of .time.
+
+Then, inside of this selector’s curly braces, write:
+
+color: gray;
+
+Hint
+To select tag elements with a specific class, chain the class selector to the end of the element selector with no space between:
+
+element.class {
+ 
+}
+6.
+At the bottom of the page, there’s a link to the full recipe. Let’s make the link a different color.
+
+Notice that in index.html, on line 42, there is a p element with a class of citation, then an a element inside of it with a class of external-link. Navigate to style.css and write a selector using external-link class.
+
+Then, add this code inside of the selector’s curly braces:
+
+color: SeaGreen;
+
+Hint
+Class selectors use a . before the class name:
+
+.class-name {
+ 
+}
+7.
+Finally, let’s make the font Helvetica instead of the default Times New Roman. Instead of writing multiple selectors to apply the font-family property, write a selector that applies a font-family attribute to all text at once.
+
+The selector should target the h1, h2, p, and li elements.
+
+To change their font, include this line of code inside the curly braces:
+
+font-family: Helvetica;
+
+Hint
+You can add the same styles to many elements by separating the selector targets with commas:
+
+element1, element2, ... {
+ 
+}
+
+Code Editor
+
+files
+index.html
+style.css
+
+Code Editor
+
+Web Browser
+http://localhost:8000/
+
+7/7 Complete
+Back
+Next

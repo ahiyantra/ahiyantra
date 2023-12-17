@@ -1,0 +1,33 @@
+Skip to Content
+Lingua Franca - An Offline Project
+
+Avatar
+Lingua Franca - An Offline Project
+In this project, you'll use your own computer's command line to bring the whole course together!
+
+Welcome to the cumulative project for the Learn Command Line course! It’s time to build fluency using the command line on your own computer. In this offline project, you will download a zip file containing all the relevant project contents. Follow the instructions below to get started and complete the project!
+
+Objective
+Lingua Franca, a translation service, has asked you to help them manage their file system and configure their environment.
+
+The image is a camera shot of a translation dictionary between English and a Eastern European language.
+Photo by Edurne Chopeitia on Unsplash
+
+Steps
+Reference this article about how to do command line setup on your computer.
+
+If you are using Windows, if you have not already done so, download Git Bash, our recommended Linux terminal simulator.
+
+Download the lingua-franca-project.zip file.
+
+Unzip the file by double-clicking on it in your Downloads/ folder, or wherever your downloads are.
+
+Navigate to the newly unzipped folder, making note of its location in your computer’s file system.
+
+Follow the instructions in tasks.html in the newly unzipped folder. This is where the project starts!
+
+If you are stuck on the project, we have included our solution in the file solution.html.
+
+If you need more guidance after attempting on your own, our project walkthrough could also be helpful:
+
+

@@ -1,0 +1,22 @@
+Skip to Content
+Configuring the Command Line Environment
+
+Avatar
+Configuring the Command Line Environment
+The command line is an indispensable tool for developing projects. You can use the command line to manage all your project files; you can move files, delete files, reorganize them, search and replace terms in your project, and so much more. You can also control the execution of programs you write and run commands from development software. The terminal becomes a busy place! This is why the command line is an environment in and of itself.
+
+A computer screen with one side being a code editor with JavaScript code, and the other side being a terminal with a black background and green letters, showing text output and a long key code.
+Photo by Arget on Unsplash
+
+Within the command line environment, you can have many things running at once! For example, you can execute a Python project and keep track of output as a program runs (and redirect that output to a file), you can edit files directly inside the command line, and you can run commands from development software like Git to keep things organized. As you become a more seasoned developer, you will find it necessary to configure the command line environment to your liking and convenience.
+
+In this lesson, you will add special settings to customize the command line environment. Specifically, you will learn:
+
+how to use nano, a keyboard-only text editor that exists in the command line
+what the bash profile is
+how to store shorthands (called alias) for commonly used commands
+how to change the way your command prompt looks
+how to establish and access global command-line variables
+what the PATH variable is and how to check which directories executable commands come from
+Ready? Let’s get started!
+

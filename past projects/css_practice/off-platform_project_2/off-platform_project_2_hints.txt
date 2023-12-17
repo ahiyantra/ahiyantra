@@ -1,0 +1,56 @@
+Skip to Content
+My Home
+Course Menu
+Get Unstuck
+Tools
+
+
+
+Avatar
+Learn Intermediate CSS: Off-Platform Project: Tea CozyBrief
+Objective
+LEARN INTERMEDIATE CSS
+Off-Platform Project: Tea Cozy
+In this project, you will create a fictional tea shop website on your own computer.
+
+We will provide a design spec and image assets to help you along the way. A design spec is an image of a web page outlined with all of its CSS properties and values. These are usually created by a designer as a source of instructions for a web developer. This project assumes that you will be able to reproduce the basic HTML and CSS with little guidance.
+
+The images and design spec you need to complete the project are listed below.
+
+Images:
+
+Logo
+Bedford Bizarre
+Berry Blitz
+Donut
+Locations
+Background
+Myrtle Ave
+Spiced Rum
+Design Spec:
+
+Click here to access the design spec.
+Good luck!
+
+Tasks
+0/1 Complete
+Mark the tasks as complete by checking them off
+1.
+This project is intended to be completed on your own computer. The resources above will help you get to the final outcome. There’s no single, correct way to complete this project, so experiment and have fun!
+
+
+Hint
+When looking over the design spec we notice the content needed, the layout of the page, and other styles. There are numerous ways to create this page and make it match the spec as closely as possible. One of the styles noted on the design spec, opacity: 0.9;, is optional and will be up to you to decide whether to use the style or not.
+
+Opacity, can make high contrast colors - like white on black - look softer and more subtle. When adding opacity, we suggest adding it to your main container (not the navigation section), but remember to ask yourself - do I like the look of this?
+
+Code Editor
+files
+index.html
+style.css
+Code Editor
+Web Browser
+http://localhost:8000/
+
+0/1 Complete
+Back
