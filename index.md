@@ -8,7 +8,7 @@ I'm a software engineer with academic research & commercial work experience, str
 
 I constantly work on improving my understanding of full-stack web & game programming. My hobbies include reading, learning & machines in general. My mindset as a professional includes not minding either traveling or relocating when required. I'm prepared for experiencing adventures. I feel that going through a new experience is never a bad thing. If something about my profile piques your curiosity, then please feel free to contact me about it. Other than that, I recommend checking out my various personal & professional projects. 
 
-Relevant quote: "Keep iterating. Everyone starts somewhere. Becoming a beginner is always the first step towards becoming an expert." (source unknown)
+Relevant quote: "Keep iterating. Make mistakes & learn lessons. Everyone starts somewhere. Being a beginner is always the first step towards being an expert." — Rand Anon
 
 ------------
 
