@@ -2,7 +2,7 @@
 
 ## "S.S.W.(ahiyantra)" Welcomes You!
 
-### Feel Free To Check Out My Personal Projects!
+### Feel Free To Check Out My Project Portfolio!
 
 <div>
 <p align="left">
