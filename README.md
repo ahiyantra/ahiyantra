@@ -6,6 +6,8 @@
 
 ## Feel Free To Check Out My Project Portfolio!
 
+## (Any Proprietary Work Not Included Here)
+
 <div>
 <p align="left">
 <img height="185em" src="https://github-readme-stats.vercel.app/api?username=ahiyantra&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
