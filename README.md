@@ -4,9 +4,9 @@
 
 ### [Click Here For An Introduction!](https://ahiyantra.github.io/ahiyantra/)
 
-## Feel Free To Check Out My Project Portfolio!
+## Feel Free To Check Out My Portfolio!
 
-## (Any Proprietary Work Not Included Here)
+## (Any Proprietary Work Not Made Available Here)
 
 <div>
 <p align="left">
