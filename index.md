@@ -4,7 +4,7 @@
 
 ### Introduction:
 
-A versatile & proactive software engineer focusing on robotics, AI/ML, computer vision & computer simulation with several years of hands-on experience in research & development at commercial & academic organizations. Proficient in python, c#, ROS & various related frameworks. Obtained a master's degree of science in engineering for information technologies on 17th june in 2025. Also engaged in applied science projects at a robotics & machine perception laboratory. Always open to traveling, relocating & onsite work for interesting opportunities.
+A versatile and proactive software engineer focusing on robotics, AI/ML, computer vision and computer simulation with several years of hands-on experience in research and development at commercial and academic organizations. Proficient in python, c\#, ROS and various related frameworks. Finished formal education with a bachelor's degree in technology for biotechnology and a master's degree in engineering for information technologies. Engaged in applied science projects at a robotics and machine perception laboratory. Always open to traveling, relocating and onsite work for interesting projects. Desiring environments that can provide personal and career growth opportunities.
 
 ---
 
